@@ -59,6 +59,14 @@
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
+            <!-- Page for PDF file -->
+            {% if p.pdf %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ p.pdf | relative_url }}" target="_blank">
+                  {{- p.title }}
+                </a>
+              </li>
+            {% endif %}
             {% if p.nav and p.autogen == null %}
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
