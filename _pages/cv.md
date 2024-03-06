@@ -2,7 +2,7 @@
 # layout: cv
 permalink: /cv/
 title: CV
-pdf: assets/pdf/cv.pdf
+pdf: assets/pdf/CV.pdf
 # nav: true
 nav_order: 5
 # cv_pdf: example_pdf.pdf
