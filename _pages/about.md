@@ -19,9 +19,9 @@ social: false # includes social icons at the bottom of the page
 
 I am a Postdoc at Harvard University working in `Trustworthy AI` with Professor [Himabindu Lakkaraju](https://himalakkaraju.github.io/). My research focuses on the `safety`, `security`, and `robustness` of machine learning (ML) models. It involves designing algorithms to certifiably defend models against adversarial inputs, for example, safeguarding large language models (LLMs) from prompts that circumvent safety guardrails. I have studied and contributed to model robustness in several machine learning domains including `computer vision`, `reinforcement learning`, and `natural language processing`. My work has been accepted in prominent ML conferences such as `ICML`, `ICLR` and `NeurIPS`, and I am actively involved in collaborative projects within the academic community.
 
-**Media Coverage:** My work has also featured in popular tech magazines and academic news outlets:
-  1. [Science News Magazine](https://www.sciencenews.org/article/generative-ai-chatbots-chatgpt-safety-concerns?trk=feed_main-feed-card_feed-article-content). Work featured: [Certifying LLM Safety against Adversarial Prompting](https://arxiv.org/abs/2309.02705)
-  2. [The Register](https://www.theregister.com/2023/03/21/detecting_ai_generated_text/), [TechSpot](https://www.techspot.com/news/98031-reliable-detection-ai-generated-text-impossible-new-study.html). Work featured: [Can AI-Generated Text be Reliably Detected?](https://arxiv.org/abs/2303.11156)
+**Media Coverage:** My recent works on `LLM safety` and `reliability` have been featured in popular tech magazines and academic news outlets:
+  1. [Science News Magazine](https://www.sciencenews.org/article/generative-ai-chatbots-chatgpt-safety-concerns?trk=feed_main-feed-card_feed-article-content), [D^3 Institute at Harvard](https://d3.harvard.edu/certifying-llm-safety-against-adversarial-prompting/). Work featured: [Certifying LLM Safety against Adversarial Prompting](https://arxiv.org/abs/2309.02705).
+  2. [The Washington Post](https://www.washingtonpost.com/technology/2023/06/02/turnitin-ai-cheating-detector-accuracy/), [Bloomberg](https://www.bloomberg.com/news/newsletters/2023-11-06/biden-ai-executive-order-shows-urgency-of-deepfakes), [Wired](https://www.wired.com/story/ai-detection-chat-gpt-college-students/), [New Scientist](https://www.newscientist.com/article/2366824-reliably-detecting-ai-generated-text-is-mathematically-impossible/), [The Register](https://www.theregister.com/2023/03/21/detecting_ai_generated_text/), [TechSpot](https://www.techspot.com/news/98031-reliable-detection-ai-generated-text-impossible-new-study.html). Work featured: [Can AI-Generated Text be Reliably Detected?](https://arxiv.org/abs/2303.11156).
 
 Before joining Harvard, I completed my PhD at the [University of Maryland](https://www.cs.umd.edu) in `certified robustness` in machine learning. I was fortunate to be advised by Professors [Soheil Feizi](https://www.cs.umd.edu/~sfeizi/) and [Tom Goldstein](https://www.cs.umd.edu/~tomg/). During my PhD, I have spent time as a research intern at [Nokia Bell Labs](https://www.bell-labs.com/) and an applied scientist intern at [Amazon](https://www.amazon.science/), where I worked on network security-related machine learning applications and uncertainty estimation for human action recognition models. I have also served as a reviewer for machine learning conferences such as ICML and NeurIPS.
 
@@ -32,7 +32,7 @@ I did my undergraduate studies at [IIT Mandi](https://iitmandi.ac.in/) and my ma
 ## News
 
 | | |
-| **Feb 12, 2024** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | New pre-print on [Certifying LLM Safety against Adversarial Prompting](https://arxiv.org/abs/2309.02705)! Covered by [Science News Magazine](https://www.sciencenews.org/article/generative-ai-chatbots-chatgpt-safety-concerns?trk=feed_main-feed-card_feed-article-content). |
+| **Feb 12, 2024** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | :page_facing_up: New pre-print on [Certifying LLM Safety against Adversarial Prompting](https://arxiv.org/abs/2309.02705)! Covered by [Science News Magazine](https://www.sciencenews.org/article/generative-ai-chatbots-chatgpt-safety-concerns?trk=feed_main-feed-card_feed-article-content). |
 |  |  |
 | **Dec 19, 2023** | Graduated from `UMD`! :man_student: |
 |  |  |
@@ -68,7 +68,8 @@ See full list at [Google Scholar](https://scholar.google.com/citations?user=Njhp
     <td valign="top" width="20%"><strong>Preprint</strong></td>
     <td><strong>Certifying LLM Safety against Adversarial Prompting</strong><br>
         <b>Aounon Kumar</b>, Chirag Agarwal, Suraj Srinivas, Aaron Jiaxun Li, Soheil Feizi, Himabindu Lakkaraju<br>
-        <a href="https://arxiv.org/abs/2309.02705">ArXiv</a>, <a href="https://github.com/aounon/certified-llm-safety">Code</a>, <a href="https://arxiv.org/pdf/2309.02705.pdf">PDF</a>
+        <a href="https://arxiv.org/abs/2309.02705">ArXiv</a>, <a href="https://github.com/aounon/certified-llm-safety">Code</a>, <a href="https://arxiv.org/pdf/2309.02705.pdf">PDF</a><br>
+        Media Coverage: <a href="https://www.sciencenews.org/article/generative-ai-chatbots-chatgpt-safety-concerns?trk=feed_main-feed-card_feed-article-content">Science News Magazine</a>, <a href="https://d3.harvard.edu/certifying-llm-safety-against-adversarial-prompting/">D^3 Institute at Harvard</a>.
     </td>
   </tr>
   <tr><td><br></td><td><br></td></tr>
@@ -76,7 +77,8 @@ See full list at [Google Scholar](https://scholar.google.com/citations?user=Njhp
     <td valign="top" width="20%"><strong>Preprint</strong></td>
     <td><strong>Can AI-Generated Text be Reliably Detected?</strong><br>
         Vinu Sankar Sadasivan, <b>Aounon Kumar</b>, Sriram Balasubramanian, Wenxiao Wang, Soheil Feizi<br>
-        <a href="https://arxiv.org/abs/2303.11156">ArXiv</a>, <a href="https://github.com/vinusankars/Reliability-of-AI-text-detectors">Code</a>, <a href="https://arxiv.org/pdf/2303.11156.pdf">PDF</a>
+        <a href="https://arxiv.org/abs/2303.11156">ArXiv</a>, <a href="https://github.com/vinusankars/Reliability-of-AI-text-detectors">Code</a>, <a href="https://arxiv.org/pdf/2303.11156.pdf">PDF</a><br>
+        Media Coverage: <a href="https://www.washingtonpost.com/technology/2023/06/02/turnitin-ai-cheating-detector-accuracy/">The Washington Post</a>, <a href="https://www.bloomberg.com/news/newsletters/2023-11-06/biden-ai-executive-order-shows-urgency-of-deepfakes">Bloomberg</a>, <a href="https://www.wired.com/story/ai-detection-chat-gpt-college-students/">Wired</a>, <a href="https://www.newscientist.com/article/2366824-reliably-detecting-ai-generated-text-is-mathematically-impossible/">New Scientist</a>, <a href="https://www.theregister.com/2023/03/21/detecting_ai_generated_text/">The Register</a>, <a href="https://www.techspot.com/news/98031-reliable-detection-ai-generated-text-impossible-new-study.html">TechSpot</a>.
     </td>
   </tr>
   <tr><td><br></td><td><br></td></tr>
@@ -117,7 +119,7 @@ See full list at [Google Scholar](https://scholar.google.com/citations?user=Njhp
 
 ## Contact
 
-[Science and Engineering Complex](https://seas.harvard.edu/about-us/visit-us/allston/science-engineering-complex)<br>
+[Science and Engineering Complex](https://seas.harvard.edu/about-us/visit-us/allston/science-engineering-complex) :office:<br>
 150 Western Ave<br>
 Office #6220<br>
 Allston, MA 02134

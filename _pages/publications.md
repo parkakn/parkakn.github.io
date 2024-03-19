@@ -15,7 +15,8 @@ For a complete and updated list, please see [Google Scholar](https://scholar.goo
     <td valign="top" width="20%"><strong>Preprint</strong></td>
     <td><strong>Certifying LLM Safety against Adversarial Prompting</strong><br>
         <b>Aounon Kumar</b>, Chirag Agarwal, Suraj Srinivas, Aaron Jiaxun Li, Soheil Feizi, Himabindu Lakkaraju<br>
-        <a href="https://arxiv.org/abs/2309.02705">ArXiv</a>, <a href="https://github.com/aounon/certified-llm-safety">Code</a>, <a href="https://arxiv.org/pdf/2309.02705.pdf">PDF</a>
+        <a href="https://arxiv.org/abs/2309.02705">ArXiv</a>, <a href="https://github.com/aounon/certified-llm-safety">Code</a>, <a href="https://arxiv.org/pdf/2309.02705.pdf">PDF</a><br>
+        Media Coverage: <a href="https://www.sciencenews.org/article/generative-ai-chatbots-chatgpt-safety-concerns?trk=feed_main-feed-card_feed-article-content">Science News Magazine</a>, <a href="https://d3.harvard.edu/certifying-llm-safety-against-adversarial-prompting/">D^3 Institute at Harvard</a>.
     </td>
   </tr>
   <tr><td><br></td><td><br></td></tr>
@@ -23,7 +24,8 @@ For a complete and updated list, please see [Google Scholar](https://scholar.goo
     <td valign="top" width="20%"><strong>Preprint</strong></td>
     <td><strong>Can AI-Generated Text be Reliably Detected?</strong><br>
         Vinu Sankar Sadasivan, <b>Aounon Kumar</b>, Sriram Balasubramanian, Wenxiao Wang, Soheil Feizi<br>
-        <a href="https://arxiv.org/abs/2303.11156">ArXiv</a>, <a href="https://github.com/vinusankars/Reliability-of-AI-text-detectors">Code</a>, <a href="https://arxiv.org/pdf/2303.11156.pdf">PDF</a>
+        <a href="https://arxiv.org/abs/2303.11156">ArXiv</a>, <a href="https://github.com/vinusankars/Reliability-of-AI-text-detectors">Code</a>, <a href="https://arxiv.org/pdf/2303.11156.pdf">PDF</a><br>
+        Media Coverage: <a href="https://www.washingtonpost.com/technology/2023/06/02/turnitin-ai-cheating-detector-accuracy/">The Washington Post</a>, <a href="https://www.wired.com/story/ai-detection-chat-gpt-college-students/">Wired</a>, <a href="https://www.newscientist.com/article/2366824-reliably-detecting-ai-generated-text-is-mathematically-impossible/">New Scientist</a>, <a href="https://www.theregister.com/2023/03/21/detecting_ai_generated_text/">The Register</a>, <a href="https://www.techspot.com/news/98031-reliable-detection-ai-generated-text-impossible-new-study.html">TechSpot</a>.
     </td>
   </tr>
   <tr><td><br></td><td><br></td></tr>
@@ -47,7 +49,8 @@ For a complete and updated list, please see [Google Scholar](https://scholar.goo
     <td valign="top" width="20%"><strong>ICLR 2024</strong></td>
     <td><strong>Robustness of AI-Image Detectors: Fundamental Limits and Practical Attacks</strong><br>
         Mehrdad Saberi, Vinu Sankar Sadasivan, Keivan Rezaei, <b>Aounon Kumar</b>, Atoosa Chegini, Wenxiao Wang, Soheil Feizi<br>
-        <a href="https://openreview.net/forum?id=dLoAdIKENc">OpenReview</a>, <a href="https://arxiv.org/abs/2310.00076">ArXiv</a>, <a href="https://github.com/mehrdadsaberi/watermark_robustness">Code</a>, <a href="https://arxiv.org/pdf/2310.00076.pdf">PDF</a>
+        <a href="https://openreview.net/forum?id=dLoAdIKENc">OpenReview</a>, <a href="https://arxiv.org/abs/2310.00076">ArXiv</a>, <a href="https://github.com/mehrdadsaberi/watermark_robustness">Code</a>, <a href="https://arxiv.org/pdf/2310.00076.pdf">PDF</a><br>
+        Media Coverage: <a href="https://www.technologyreview.com/2023/11/06/1082996/the-inside-scoop-on-watermarking-and-content-authentication/">MIT Technology Review</a>, <a href="https://www.theverge.com/2023/10/31/23940626/artificial-intelligence-ai-digital-watermarks-biden-executive-order">The Verge</a>, <a href="https://www.wired.com/story/artificial-intelligence-watermarking-issues/">Wired</a>.
     </td>
   </tr>
   <tr><td><br></td><td><br></td></tr>
