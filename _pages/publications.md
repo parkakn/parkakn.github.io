@@ -12,11 +12,20 @@ For a complete and updated list, please see [Google Scholar](https://scholar.goo
 <table>
   <tr><td><br></td><td><br></td></tr>
   <tr>
-    <td valign="top" width="20%"><strong>Preprint</strong></td>
+    <td valign="top" width="20%"><strong>COLM 2024</strong></td>
     <td><strong>Certifying LLM Safety against Adversarial Prompting</strong><br>
         <b>Aounon Kumar</b>, Chirag Agarwal, Suraj Srinivas, Aaron Jiaxun Li, Soheil Feizi, Himabindu Lakkaraju<br>
-        <a href="https://arxiv.org/abs/2309.02705">ArXiv</a>, <a href="https://github.com/aounon/certified-llm-safety">Code</a>, <a href="https://arxiv.org/pdf/2309.02705.pdf">PDF</a><br>
+        <a href="https://openreview.net/forum?id=9Ik05cycLq">OpenReview</a>, <a href="https://arxiv.org/abs/2309.02705">ArXiv</a>, <a href="https://github.com/aounon/certified-llm-safety">Code</a>, <a href="https://arxiv.org/pdf/2309.02705.pdf">PDF</a><br>
         Media Coverage: <a href="https://www.sciencenews.org/article/generative-ai-chatbots-chatgpt-safety-concerns?trk=feed_main-feed-card_feed-article-content">Science News Magazine</a>, <a href="https://d3.harvard.edu/certifying-llm-safety-against-adversarial-prompting/">D^3 Institute at Harvard</a>.
+    </td>
+  </tr>
+  <tr><td><br></td><td><br></td></tr>
+  <tr>
+    <td valign="top" width="20%"><strong>Preprint</strong></td>
+    <td><strong>Manipulating Large Language Models to Increase Product Visibility</strong><br>
+        <b>Aounon Kumar</b>, Himabindu Lakkaraju<br>
+        <a href="https://arxiv.org/abs/2404.07981">ArXiv</a>, <a href="https://github.com/aounon/llm-rank-optimizer">Code</a>, <a href="https://arxiv.org/pdf/2404.07981">PDF</a><br>
+        Media Coverage: <a href="https://www.nytimes.com/2024/08/30/technology/ai-chatbot-chatgpt-manipulation.html">The New York Times</a>.
     </td>
   </tr>
   <tr><td><br></td><td><br></td></tr>
