@@ -47,11 +47,13 @@ This paper presents a method for predicting stock returns using principal compon
 </div>
 ------
 
-<span style="font-size: 1.4em; font-weight: bold;">Analyzing Entity Portrayals in Narrative Text: PCA vs UMAP for Affect Subspace Projection </span> <em>(2022)</em> 
+<span style="font-size: 1.4em; font-weight: bold;">Analyzing Entity Portrayals in Narrative Text</span> <em>(2022)</em> 
+[Pipeline](/images/dimensionality_reduction.pdf) 
 <br>
-To analyze the portrayals of people in narrative text, pre-trained contextualized word embeddings have been used to extract affect information about target entities. Words have three key affective dimensions: valence representing sentiment, arousal representing agency, and dominance representing power. We use the Affect Subspace Projection (ASP) model to find a one-dimensional representation for each affect dimension and to predict affect scores of each entity by mapping its embedding onto each of dimensions. Specifically, we test ASP with two different dimension reduction techniques - Principal Component Analysis (PCA) and Uniform Manifold Approximation and Projection (UMAP).
 
-[Pipeline](/images/dimensionality_reduction.pdf)
+Bidirectinoal Encoder Representations from transformers (BERT) has shown the ability to understand the context of a word in a sentence, making it one of the most popular models in NLP. Our aim is to use this pre-trained language model in combination with dimension reduction techniques to understand how entities are portrayed in narrative text based on three primary affect dimenions: potency , valence, and activity. For example, given a target entity, such as Batman, mentioned in a moive plot, our goal is to capture its scores for each affect dimension.
+
+To extract an affect dimension, we select pairs of semantically similar, but polar opposite words (corresponding to each affect) from the VAD Lexicon and construct a matrix of word embeddings. Then, we apply a dimension reduction technique to extract the subspace corresponding to the affect dimension. From movie plot summaries, we extract contextual word embeddings for a target entity and project it to the affect dimensions. We compare PCA and UMAP for extracting the affect subspace and find that PCA leads to more significant accurarcy for all affect dimensions. 
 
 <div style="display: flex; justify-content: center;">
   <img width="35%" src="/images/word affect scores.jpeg" alt="obj">
