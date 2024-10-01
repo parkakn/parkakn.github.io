@@ -48,7 +48,7 @@ This paper presents a method for predicting stock returns using principal compon
 ------
 
 <span style="font-size: 1.4em; font-weight: bold;">Analyzing Entity Portrayals in Narrative Text</span> <em>(2022)</em> 
-[Pipeline](/images/dimensionality_reduction.pdf) 
+[[Pipeline]](/images/dimensionality_reduction.pdf) 
 <br>
 
 Bidirectional Encoder Representations from transformers (BERT) has shown the ability to understand the context of a word in a sentence, making it one of the most popular models in NLP. Our aim is to use this pre-trained language model in combination with dimension reduction techniques to understand how entities are portrayed in narrative text based on three primary affect dimensions: potency, valence, and activity. For example, given a target entity, such as Batman, mentioned in a movie plot, our goal is to capture its scores for each affect dimension. 
