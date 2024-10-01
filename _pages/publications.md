@@ -8,7 +8,9 @@ author_profile: true
 <span style="font-size: 1.4em; font-weight: bold;">Citation Network of Finance Journal Articles</span> <em>(2024)</em> 
 <a href="https://github.com/parkakn/Citation-Network-Finance-Journals">[Github]</a>
 <br>
-We built a paper-to-paper citation network of journal articles published in the Journal of Financial Economics (JFE) and their citing papers on Google Scholars through a web scrapping program. Our dataset covers 2,373 JFE papers published from January 2005 to February 2004 and 184,568 citing papers from Google Scholars. It contains 410,772 directed edges and node attributes, such as paper authors, publication dates, and sources of publication for citing papers. We further provide information on authors by identifying the university/institute of association and its location. 
+We construct a citation graph of finance journal articles and their citing papers. Through web crawling and web scraping, we collect publication data, including titles, authors, and dates, for all papers published in the *Journal of Financial Economics* (JFE) from January 2005 to February 2024, along with their corresponding citing papers listed on Google Scholar. In this graph, a directed edge exists from paper i to paper j if i cites j. The resulting citation network consists of 186,941 papers (2,373 JFE papers and 184,568 citing papers) and 410,772 directed edges.
+
+We also collect profile data for each author, including their affiliated university and location, sourced from the websites of various finance associations. This enriches our dataset, allowing for the construction of a heterogeneous graph where nodes represent both papers and authors, and edges capture the associations between authors and their papers, as well as paper-to-paper citations. 
 <div style="display: flex; justify-content: center;">
   <img width="70%" src="/images/citation network zoom 1.png" alt="obj">
 </div>
