@@ -15,16 +15,18 @@ Furthermore, we predict job transitions using graph machine learning models. By 
 ------
 
 <span style="font-size: 1.4em; font-weight: bold;">Advanced RAG: Improving Contextual Knowledge for AI Tutor</span> <em>(2024)</em> 
+<a href="https://www.media.mit.edu/projects/pytutor-empowering-equitable-education-pathways-in-computing-with-generative-ai/overview/">[PyTutor]</a>
 <br>
 With the Personal Robots Group at the Media Lab, we are developing an educational AI tutor driven by an LLM. To give the AI tutor access to domain-specific knowledge, which in our case are course materials for an introductory programming course at MIT and GSU, we implement RAG. Given the nature of LLMs in generating response from prompts with context, a significant part of our RAG framework is the data ingestion pipeline. The course materials are complex PDF documents with various embedded objects, such as tables, flowcharts, and figures, and naively parsing these documents will lead to thrash-in, thrash-out. To avoid this situation, we use a multi-modal LLM to parse our documents to markdown format, which LLMs are able to understand more easily than the text formats humans are used to, and chunk these documents into texts and objects based on the structure of the markdown file. These chunks are then stored in our database for the AI tutor to access and retrieve domain-specific knowledge from. 
 
 <div style="display: flex; justify-content: center;">
-  <img width="35%" src="/images/pytutor_1.jpeg" alt="obj">
-  <img width="33%" src="/images/pytutor_2.png" alt="obj">
+  <img width="45%" src="/images/pytutor_1.png" alt="obj">
+  <img width="45%" src="/images/pytutor_2.png" alt="obj">
 </div>
 ------
 
 <span style="font-size: 1.4em; font-weight: bold;">Personalized Learning with AI Tutor</span> <em>(2024)</em> 
+<a href="https://www.media.mit.edu/projects/pytutor-empowering-equitable-education-pathways-in-computing-with-generative-ai/overview/">[PyTutor]</a>
 <br>
 Another feature we aim to implement in our AI tutor is personalization. Students in a course are most likely to have different learning needs. For example, one student may have a strong understanding of multiplication and lack undestanding of division, while another may be the opposite. Hence, we achieve efficient learning by assessing each student's progress through the entire course and in each course event (defined as a particular event in a course, such as reviewing a lecture or completing an assignemnt) and  providing tailored learning pathways. Our current method is to prompt an LLM with abundunt context, including summaries of the course and the target course event, past chat history between the student and AI tutor, and the history of assessments of the student progress. Although context windows are increasing for LLMs, we aim to improve this personalization feature by constructing a knowledge graph of the course materials and embedding deepr understanding of the course, such as relationships between the course events. 
 
