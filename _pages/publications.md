@@ -6,6 +6,7 @@ author_profile: true
 ---
 <span style="font-size: 1.4em;">*Predicting Job Transitions with Graph Machine Learning*</span> <em>(2024)</em> 
 <br>
+
 U.S. manufacturers face significant challenges in filling job openings, particularly those requiring skilled technical workers. The situation becomes even more difficult for roles involving advanced technologies. Given that traditional education and training programs lag behind technological advancements, we aim to address this gap by identifying potential candidates from the existing workforce.
 
 Using resume data from 132 million U.S. workers, we mine job transitions and model them as a one-step Markov chain. This model is represented as a random walk on a directed, weighted graph, where jobs are nodes and transitions are edges. The resulting job transition network includes 1,013 nodes and 571,172 edges. Based on this network, we identify potential sources of workers for target manufacturing roles and for a set of emerging manufacturing jobs not present in the original network.
@@ -21,7 +22,6 @@ With the Personal Robots Group at the Media Lab, we are developing an educationa
 <div style="display: flex; justify-content: center;">
   <img width="80%" src="/images/pytutor_2.png" alt="obj">
 </div>
-------
 
 <span style="font-size: 1.2em; font-weight: bold;">Personalized Learning with Prompt Engineering</span> 
 <br>
@@ -32,6 +32,7 @@ Another feature we aim to implement in our AI tutor is personalization. Students
 <span style="font-size: 1.4em;">*Citation Network of Finance Journal Articles*</span> <em>(2024)</em> 
 <a href="https://github.com/parkakn/Citation-Network-Finance-Journals">[Github]</a>
 <br>
+
 We construct a citation graph of finance journal articles and their citing papers. Through web crawling and web scraping, we collect publication data, including titles, authors, and dates, for all papers published in the *Journal of Financial Economics* (JFE) from January 2005 to February 2024, along with their corresponding citing papers listed on Google Scholar. In this graph, a directed edge exists from paper i to paper j if i cites j. The resulting citation network consists of 186,941 papers (2,373 JFE papers and 184,568 citing papers) and 410,772 directed edges.
 
 We also collect profile data for each author, including their affiliated university and location, sourced from the websites of various finance associations. This enriches our dataset, allowing for the construction of a heterogeneous graph where nodes represent both papers and authors, and edges capture the associations between authors and their papers, as well as paper-to-paper citations. 
@@ -43,6 +44,7 @@ We also collect profile data for each author, including their affiliated univers
 <span style="font-size: 1.4em;">*Analysis of Miners in the Bitcoin Blockchain Network*</span> <em>(2023)</em> 
 <a href="https://mitsloan.mit.edu/shared/ods/documents?PublicationDocumentID=7981">[Referenced Paper]</a>
 <br>
+
 As the probability of mining a block and obtaining a reward in the Bitcoin blockchain is proportional to the hashing power spent on mining, miners are incentivized to pool their computing power. Consequently, mining in the Bitcoin blockchain is dominated by mining pools. 
 
 High concentration of mining pool capacity poses a risk to Bitcoin, such as the danger of a 51% attack. However, information individual miners are not commonly available, unlike that of minings pools. Thus, we track the distribution of mining rewards from some of the largest mining pools to the miners to identify individual miners and understand the concentration of the Bitcoin mining capactiy. 
@@ -54,6 +56,7 @@ High concentration of mining pool capacity poses a risk to Bitcoin, such as the 
 <span style="font-size: 1.4em;">*Robo-Advisor for Individual Retirement Pension (IRP) Funds*</span> <em>(2024)</em> 
 <a href="https://github.com/kangokseo/cqralgo?tab=readme-ov-file">[Github]</a>
 <br>
+
 In 2023, the Financial Services Commission of South Korea annoucned the implementation of providing robo-advisory services for retirement pension funds. Robo-advisors that are approved from the [Robo Advisor Test Bed Center](https://www.ratestbed.kr:7443/portal/main/main.do) earn the rights to provide services for Individual Retirement Pension (IRP) accounts beginning in the summer of 2024.<sup>[1](https://www.digitaltoday.co.kr/news/articleView.html?idxno=513226)</sup> 
 
 We built a prototype of our robo-advisor and are currently in the development stages. Our algorithm is based on market cycles and seasonality and invests in stock market indices of the United States and South Korea. The goal of our robo-advisor is to provide the optimal portfolio suitable based on investor risk preferences while beating the returns of the S&P500 index as our benchmark.
@@ -65,6 +68,7 @@ We built a prototype of our robo-advisor and are currently in the development st
 <span style="font-size: 1.4em;">*Principal Component Analysis and Hidden Markov Model for Forecasting Stock Returns*</span> <em>(2023)</em> 
 <a href="https://arxiv.org/abs/2307.00459">[Paper]</a>
 <br>
+
 This paper presents a method for predicting stock returns using principal component analysis (PCA) and the hidden Markov model (HMM) and tests the results of trading stocks based on this approach. Principal component analysis is applied to the covariance matrix of stock returns for companies listed in the S&P 500 index, and interpreting principal components as factor returns, we apply the HMM model on them. Then we use the transition probability matrix and state conditional means to forecast the factors returns. Reverting the factor returns forecasts to stock returns using eigenvectors, we obtain forecasts for the stock returns. We find that, with the right hyperparameters, our model yields a strategy that outperforms the buy-and-hold strategy in terms of the annualized Sharpe ratio.
 <div style="display: flex; justify-content: center;">
   <img width="70%" src="/images/hmm.png" alt="obj">
