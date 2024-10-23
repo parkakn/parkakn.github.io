@@ -4,14 +4,12 @@ title:
 permalink: /projects/
 author_profile: true
 ---
-<span style="font-size: 1.5em; font-weight: bold;">Predicting Job Transitions with Graph Machine Learning</span> <em>(2024)</em> 
+<span style="font-size: 1.5em; font-weight: bold;">Analyzing Job Transitions with Networks and Graph Machine Learning</span> <em>(2024)</em> 
 <br>
 
 U.S. manufacturers face significant challenges in filling job openings, particularly those requiring skilled technical workers. The situation becomes even more difficult for roles involving advanced technologies. Given that traditional education and training programs lag behind technological advancements, we aim to address this gap by identifying potential candidates from the existing workforce.
 
-Using resume data from 132 million U.S. workers, we mine job transitions and model them as a one-step Markov chain. This model is represented as a random walk on a directed, weighted graph, where jobs are nodes and transitions are edges. The resulting job transition network includes 1,013 nodes and 571,172 edges. Based on this network, we identify potential sources of workers for target manufacturing roles and for a set of emerging manufacturing jobs not present in the original network.
-
-Furthermore, we predict job transitions using graph machine learning models. By incorporating node and edge features—such as wages, employment, and skills for each job—along with network-based features like centrality measures, we enrich our network. We then apply encoding models, such as node2vec and graph neural network models, to test the predictive power of our model and these features.
+Using resume data from 132 million U.S. workers, we mine job transitions and model them as a one-step Markov chain. This model is represented as a random walk on a directed, weighted graph, where jobs are nodes and transitions are edges. The resulting job transition network includes 1,013 nodes and 571,172 edges. Based on this network, we identify potential sources of workers for target manufacturing roles and for a set of emerging manufacturing jobs not present in the original network. Furthermore, we enrich our network with node and edge features and train a node2vec with cosine-similarity based link prediction head for prediciting job transitions. 
 
 ------
 <span style="font-size: 1.5em; font-weight: bold;">PyTutor with Personal Robots Group of MIT Media Lab</span> <em>(2024)</em> <a href="https://www.media.mit.edu/projects/pytutor-empowering-equitable-education-pathways-in-computing-with-generative-ai/overview/">[PyTutor]</a>
@@ -64,7 +62,7 @@ We built a prototype of our robo-advisor and are currently in the development st
 ------
 
 <span style="font-size: 1.5em; font-weight: bold;">Principal Component Analysis and Hidden Markov Model for Forecasting Stock Returns</span> <em>(2023)</em> 
-<a href="https://arxiv.org/abs/2307.00459">[Paper]</a>
+<a href="https://arxiv.org/abs/2307.00459">[Preprint]</a>
 <br>
 
 This paper presents a method for predicting stock returns using principal component analysis (PCA) and the hidden Markov model (HMM) and tests the results of trading stocks based on this approach. Principal component analysis is applied to the covariance matrix of stock returns for companies listed in the S&P 500 index, and interpreting principal components as factor returns, we apply the HMM model on them. Then we use the transition probability matrix and state conditional means to forecast the factors returns. Reverting the factor returns forecasts to stock returns using eigenvectors, we obtain forecasts for the stock returns. We find that, with the right hyperparameters, our model yields a strategy that outperforms the buy-and-hold strategy in terms of the annualized Sharpe ratio.
