@@ -16,4 +16,4 @@ I hold a Master of Science in Mathematics from the Courant Institute of Mathemat
 Outside of work, I love playing soccer! I played for Citybros FC while in New York, FC Boston during college, and currently play for MIT FC.
 
 ### Research Interest
-My research interest is on machine learning, statistics, and stochastic processes. Currently, I am focsued on enhancing the reasoning capabilities of Large Language Models (LLMs), advancing the personalization of LLMs, and the application of generative AI in a broad range of fields including social robots, education, finance, and economics. 
+My research interest is on machine learning, statistics, and stochastic processes. Currently, I am focused on enhancing the reasoning capabilities of Large Language Models (LLMs), advancing the personalization of LLMs, and the application of generative AI in a broad range of fields including social robots, education, finance, and economics. 
