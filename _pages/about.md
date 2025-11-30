@@ -8,8 +8,8 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <a href="https://scholar.google.com/citations?user=NjhpUykAAAAJ">Google Scholar</a>, <a href="https://github.com/aounon">GitHub</a>, <a href="https://www.linkedin.com/in/aounon-kumar/">LinkedIn</a>
+  more_info: # >
+    # <a href="https://scholar.google.com/citations?user=NjhpUykAAAAJ">Google Scholar</a>, <a href="https://github.com/aounon">GitHub</a>, <a href="https://www.linkedin.com/in/aounon-kumar/">LinkedIn</a>
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
