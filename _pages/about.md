@@ -32,14 +32,14 @@ I did my undergraduate studies at [IIT Mandi](https://iitmandi.ac.in/) and my ma
 
 <br>
 
-## News
+<!-- ## News
 
 | | |
 | **Aug 30, 2024** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | :page_facing_up: New pre-print on [Manipulating Large Language Models to Increase Product Visibility](https://arxiv.org/abs/2404.07981)! Covered by [The New York Times](https://www.nytimes.com/2024/08/30/technology/ai-chatbot-chatgpt-manipulation.html). |
 |  |  |
 | **Jul 10, 2024** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Accepted at COLM 2024 :llama:: [Certifying LLM Safety against Adversarial Prompting](https://openreview.net/forum?id=9Ik05cycLq). Covered by [Science News Magazine](https://www.sciencenews.org/article/generative-ai-chatbots-chatgpt-safety-concerns?trk=feed_main-feed-card_feed-article-content). |
 |  |  |
-| **Dec 19, 2023** | Graduated from `UMD`! :man_student: |
+| **Dec 19, 2023** | Graduated from `UMD`! :man_student: | -->
 
 <!-- table>
   <tr><td><br></td><td><br></td></tr>
@@ -62,59 +62,69 @@ I did my undergraduate studies at [IIT Mandi](https://iitmandi.ac.in/) and my ma
 
 <br>
 
-## Selected Publications
-See full list at [Google Scholar](https://scholar.google.com/citations?user=NjhpUykAAAAJ).
+## Publications
+<!-- See full list at [Google Scholar](https://scholar.google.com/citations?user=NjhpUykAAAAJ). -->
 
 <table>
   <tr><td><br></td><td><br></td></tr>
   <tr>
-    <td valign="top" width="20%"><strong>COLM 2024</strong></td>
-    <td><strong>Certifying LLM Safety against Adversarial Prompting</strong><br>
-        <b>Aounon Kumar</b>, Chirag Agarwal, Suraj Srinivas, Aaron Jiaxun Li, Soheil Feizi, Himabindu Lakkaraju<br>
-        <a href="https://openreview.net/forum?id=9Ik05cycLq">OpenReview</a>, <a href="https://arxiv.org/abs/2309.02705">ArXiv</a>, <a href="https://github.com/aounon/certified-llm-safety">Code</a>, <a href="https://arxiv.org/pdf/2309.02705.pdf">PDF</a><br>
-        Media Coverage: <a href="https://www.sciencenews.org/article/generative-ai-chatbots-chatgpt-safety-concerns?trk=feed_main-feed-card_feed-article-content">Science News Magazine</a>, <a href="https://d3.harvard.edu/certifying-llm-safety-against-adversarial-prompting/">D^3 Institute at Harvard</a>.
+    <td valign="top" width="20%"><strong>EMNLP Findings 2025</strong></td>
+    <td><strong>BehaviorSFT: Behavioral Token Conditioning for Clinical Agents Across the
+Proactivity Spectrum</strong><br>
+        Yubin Kim, Zhiyuan Hu, Hyewon Jeong, <b>Eugene Park</b>, Shuyue Stella Li, Chanwoo Park, Shiyun
+Xiong, MingYu Lu, Hyeonhoon Lee, Xin Liu, Daniel McDuff, Cynthia Breazeal, Samir Tulebaev,
+Hae Won Park<br>
+        <a href="https://arxiv.org/abs/2505.21757">ArXiv</a>, <a href="https://behavior-adaptation.github.io/">Code & Model</a>
+    </td>
+  </tr>
+
+    <tr><td><br></td><td><br></td></tr>
+  <tr>
+    <td valign="top" width="20%"><strong>Interspeech Oral 2025</strong></td>
+    <td><strong>VocalAgent: Large Language
+Models for Vocal Health Diagnostics with Safety-Aware Evaluation</strong><br>
+        Yubin Kim, Taehan Kim, Wonjune Kang, <b>Eugene Park</b>,, Joonsik Yoon, Dongjae Lee, Xin Liu,
+Daniel McDuff, Hyeonhoon Lee, Cynthia Breazeal, Hae Won Park<br>
+        <a href="https://arxiv.org/abs/2505.13577">ArXiv</a>
+    </td>
+  </tr>
+  
+  <tr><td><br></td><td><br></td></tr>
+  <tr>
+    <td valign="top" width="20%"><strong>Preprint 2025</strong></td>
+    <td><strong>Medical Hallucination in Foundation Models and Their Impact on Healthcare</strong><br>
+        Yubin Kim, Hyewon Jeong, Shan Chen, Shuyue Stella Li, Mingyu Lu, Kumail Alhamoud, Jimin
+Mun, Cristina Grau, Minseok Jung, Rodrigo Gameiro, Lizhou Fan, <b>Eugene Park</b>, Tristan Lin,
+Joonsik Yoon, Wonjin Yoon, Maarten Sap, Yulia Tsvetkov, Paul Liang, Xuhai Xu, Xin Liu, Daniel
+McDuff, Hyeonhoon Lee, Hae Won Park, Samir Tulebaev, Cynthia Breazeal
+        <br>
+        <a href="https://www.medrxiv.org/content/10.1101/2025.02.28.25323115v1.full">medRxiv</a>
+      </td>
+  </tr>
+  <tr><td><br></td><td><br></td></tr>
+
+  <tr><td><br></td><td><br></td></tr>
+  <tr>
+    <td valign="top" width="20%"><strong>Preprint 2024</strong></td>
+    <td><strong>Swamps, Springboards,  and the Demographic Dynamics  of Occupational Mobility Identifying Enablers and Inhibitors of Career Growth by Mining Education and Employment Histories  for Millions of U.S. Workers</strong><br>
+        Chris Compton, <b>Eugene Park</b>, Matthew Walsh , George Westerman<br>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5616190">SSRN</a>
     </td>
   </tr>
   <tr><td><br></td><td><br></td></tr>
   <tr>
-    <td valign="top" width="20%"><strong>Preprint</strong></td>
-    <td><strong>Manipulating Large Language Models to Increase Product Visibility</strong><br>
-        <b>Aounon Kumar</b>, Himabindu Lakkaraju<br>
-        <a href="https://arxiv.org/abs/2404.07981">ArXiv</a>, <a href="https://github.com/aounon/llm-rank-optimizer">Code</a>, <a href="https://arxiv.org/pdf/2404.07981">PDF</a><br>
-        Media Coverage: <a href="https://www.nytimes.com/2024/08/30/technology/ai-chatbot-chatgpt-manipulation.html">The New York Times</a>.
+    <td valign="top" width="20%"><strong>Preprint 2024</strong></td>
+    <td><strong>Real-World Pathways to Manufacturing Jobs</strong><br>
+        Jeff Dieffenbach, <b>Eugene Park</b>, George Westerman<br>
+        <a href="hhttps://papers.ssrn.com/sol3/papers.cfm?abstract_id=5619230">SSRN</a>
     </td>
   </tr>
   <tr><td><br></td><td><br></td></tr>
   <tr>
-    <td valign="top" width="20%"><strong>TMLR 2024</strong></td>
-    <td><strong>Can AI-Generated Text be Reliably Detected?</strong><br>
-        Vinu Sankar Sadasivan, <b>Aounon Kumar</b>, Sriram Balasubramanian, Wenxiao Wang, Soheil Feizi<br>
-        <a href="https://openreview.net/forum?id=OOgsAZdFOt">OpenReview</a>, <a href="https://arxiv.org/abs/2303.11156">ArXiv</a>, <a href="https://github.com/vinusankars/Reliability-of-AI-text-detectors">Code</a>, <a href="https://arxiv.org/pdf/2303.11156.pdf">PDF</a><br>
-        Media Coverage: <a href="https://www.washingtonpost.com/technology/2023/06/02/turnitin-ai-cheating-detector-accuracy/">The Washington Post</a>, <a href="https://www.bloomberg.com/news/newsletters/2023-11-06/biden-ai-executive-order-shows-urgency-of-deepfakes">Bloomberg</a>, <a href="https://www.wired.com/story/ai-detection-chat-gpt-college-students/">Wired</a>, <a href="https://www.newscientist.com/article/2366824-reliably-detecting-ai-generated-text-is-mathematically-impossible/">New Scientist</a>, <a href="https://www.theregister.com/2023/03/21/detecting_ai_generated_text/">The Register</a>, <a href="https://www.techspot.com/news/98031-reliable-detection-ai-generated-text-impossible-new-study.html">TechSpot</a>.
-    </td>
-  </tr>
-  <tr><td><br></td><td><br></td></tr>
-  <tr>
-    <td valign="top" width="20%"><strong>NeurIPS<br>D&B 2024</strong></td>
-    <td><strong>MedSafetyBench: Evaluating and Improving the Medical Safety of Large Language Models</strong><br>
-        Tessa Han, <b>Aounon Kumar</b>, Chirag Agarwal, and Himabindu Lakkaraju<br>
-        <a href="https://openreview.net/forum?id=cFyagd2Yh4">OpenReview</a>, <a href="https://arxiv.org/abs/2403.03744">ArXiv</a>, <a href="https://arxiv.org/pdf/2403.03744.pdf">PDF</a>
-    </td>
-  </tr>
-  <tr><td><br></td><td><br></td></tr>
-  <tr>
-    <td valign="top" width="20%"><strong>ICLR 2022</strong></td>
-    <td><strong>Policy Smoothing for Provably Robust Reinforcement Learning</strong><br>
-        <b>Aounon Kumar</b>, Alexander Levine, Soheil Feizi<br>
-        <a href="https://openreview.net/forum?id=mwdfai8NBrJ">OpenReview</a>, <a href="https://arxiv.org/abs/2106.11420">ArXiv</a>, <a href="https://openreview.net/attachment?id=mwdfai8NBrJ&name=supplementary_material">Code</a>, <a href="https://arxiv.org/pdf/2106.11420.pdf">PDF</a>
-    </td>
-  </tr>
-  <tr><td><br></td><td><br></td></tr>
-  <tr>
-    <td valign="top" width="20%"><strong>ICML 2020</strong></td>
-    <td><strong>Curse of Dimensionality on Randomized Smoothing for Certifiable Robustness</strong><br>
-        <b>Aounon Kumar</b>, Alexander Levine, Tom Goldstein, Soheil Feizi<br>
-        <a href="https://proceedings.mlr.press/v119/kumar20b.html">ICML Proceedings</a>, <a href="https://arxiv.org/abs/2002.03239">ArXiv</a>, <a href="https://github.com/alevine0/smoothingGenGaussian">Code</a>, <a href="https://arxiv.org/pdf/2002.03239.pdf">PDF</a>
+    <td valign="top" width="20%"><strong>Preprint 2023</strong></td>
+    <td><strong>Principal Component Analysis and Hidden Markov Model for Forecasting Stock Returns</strong><br>
+        <b>Eugene Park</b><br>
+        <a href="https://arxiv.org/abs/2307.00459">ArXiv</a>
     </td>
   </tr>
 </table>
