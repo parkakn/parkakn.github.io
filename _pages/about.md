@@ -44,7 +44,7 @@ I completed my undergraduate studies at [Boston College](https://www.bc.edu/), w
   <tr><td><br></td><td><br></td></tr>
   <tr>
     <td valign="top" width="20%"><strong>ICLR 2026 (Under Review)</strong></td>
-    <td><strong>InvThink: Towards AI Safety via Inverse Reasoning/strong><br>
+    <td><strong>InvThink: Towards AI Safety via Inverse Reasoning</strong><br>
         Yubin Kim, Taehan Kim, <b>Eugene Park</b>, Chunjong Park, Cynthia Breazeal, Daniel McDuff, Hae Won Park<br>
         <a href="https://openreview.net/forum?id=Fbe7OnbkAn">Open Review</a>, <a href="https://arxiv.org/abs/2510.01569">ArXiv</a>
     </td>
