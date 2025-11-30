@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: # >
+  more_info: false # >
     # <a href="https://scholar.google.com/citations?user=NjhpUykAAAAJ">Google Scholar</a>, <a href="https://github.com/aounon">GitHub</a>, <a href="https://www.linkedin.com/in/aounon-kumar/">LinkedIn</a>
 
 news: false # includes a list of news items
@@ -17,7 +17,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a Postdoctoral Research Associate at Harvard University working in `Trustworthy AI` with Professor [Himabindu Lakkaraju](https://himalakkaraju.github.io/). My research focuses on the `robustness`, `security`, and `reliability` of machine learning (ML) models. It involves designing algorithms to defend models against adversarial inputs, for example, safeguarding large language models (LLMs) from prompts that circumvent safety guardrails. I have studied and contributed to model robustness in several machine learning domains including `computer vision`, `reinforcement learning`, and `language modeling`. My work has been accepted in prominent ML conferences such as `ICML`, `ICLR` and `NeurIPS`, and I am actively involved in collaborative projects within the academic community.
+I am a software engineer at Personal Robots group of MIT Media Lab. My long term research endeavor is to build aritificial integlligence (AI) systems that support humans decision making under uncertainty. Currently, my research revolves around `interpretability` and `alignment` of language models applied in educational settings. 
+
+<!-- It involves designing algorithms to defend models against adversarial inputs, for example, safeguarding large language models (LLMs) from prompts that circumvent safety guardrails. I have studied and contributed to model robustness in several machine learning domains including `computer vision`, `reinforcement learning`, and `language modeling`. My work has been accepted in prominent ML conferences such as `ICML`, `ICLR` and `NeurIPS`, and I am actively involved in collaborative projects within the academic community. -->
 
 **Media Coverage:** My recent works on `LLM robustness` and `reliability` have been featured in major media and academic news outlets:
   1. [Science News Magazine](https://www.sciencenews.org/article/generative-ai-chatbots-chatgpt-safety-concerns?trk=feed_main-feed-card_feed-article-content), [D^3 Institute at Harvard](https://d3.harvard.edu/certifying-llm-safety-against-adversarial-prompting/). Work featured: [Certifying LLM Safety against Adversarial Prompting](https://openreview.net/forum?id=9Ik05cycLq).
