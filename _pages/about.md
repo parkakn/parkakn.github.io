@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <strong><font size="4">AI Engineer/font></strong>
+subtitle: <strong><font size="4">AI Engineer</font></strong>
 
 profile:
   align: right
@@ -26,15 +26,17 @@ Before MIT, I completed my Master of Science in Mathematics at the [Courant Inst
 I completed my undergraduate studies at [Boston College](https://www.bc.edu/), where I studied a wide range of topics across mathematics, economics, and finance. My senior honors thesis examined the transfer of instability between the stock market and the real economy, focusing on how financial shocks propagate through the business cycle.
 
 <br>
-<!-- ## News
+## News
 
 | | |
 | **Aug 30, 2024** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | :page_facing_up: New pre-print on [Manipulating Large Language Models to Increase Product Visibility](https://arxiv.org/abs/2404.07981)! Covered by [The New York Times](https://www.nytimes.com/2024/08/30/technology/ai-chatbot-chatgpt-manipulation.html). |
 |  |  |
 | **Jul 10, 2024** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Accepted at COLM 2024 :llama:: [Certifying LLM Safety against Adversarial Prompting](https://openreview.net/forum?id=9Ik05cycLq). Covered by [Science News Magazine](https://www.sciencenews.org/article/generative-ai-chatbots-chatgpt-safety-concerns?trk=feed_main-feed-card_feed-article-content). |
 |  |  |
-| **Dec 19, 2023** | Graduated from `UMD`! :man_student: |  -->
+| **Dec 19, 2023** | Graduated from `UMD`! :man_student: | 
 
+
+<br>
 ## Selected Publications
 <!-- See full list at [Google Scholar](https://scholar.google.com/citations?user=NjhpUykAAAAJ). -->
 
@@ -57,7 +59,7 @@ I completed my undergraduate studies at [Boston College](https://www.bc.edu/), w
     </td>
   </tr>
 
-    <tr><td><br></td><td><br></td></tr>
+  <tr><td><br></td><td><br></td></tr>
   <tr>
     <td valign="top" width="20%"><strong>Interspeech 2025 Oral</strong></td>
     <td><strong>VocalAgent: Large Language
@@ -90,8 +92,6 @@ McDuff, Hyeonhoon Lee, Hae Won Park, Samir Tulebaev, Cynthia Breazeal
         <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5616190">SSRN</a>
     </td>
   </tr>
-  <tr><td><br></td><td><br></td></tr>
-
   <!-- <tr>
     <td valign="top" width="20%"><strong>Preprint 2024</strong></td>
     <td><strong>Real-World Pathways to Manufacturing Jobs</strong><br>
@@ -100,7 +100,8 @@ McDuff, Hyeonhoon Lee, Hae Won Park, Samir Tulebaev, Cynthia Breazeal
     </td>
   </tr>
   <tr><td><br></td><td><br></td></tr> -->
-
+  
+  <tr><td><br></td><td><br></td></tr>
   <tr>
     <td valign="top" width="20%"><strong>Preprint 2023</strong></td>
     <td><strong>Principal Component Analysis and Hidden Markov Model for Forecasting Stock Returns</strong><br>
