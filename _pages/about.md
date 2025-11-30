@@ -8,7 +8,9 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: false # >
+  more_info:  > 
+  🤖 human-centered AI * 🤝 Alignment * 🕵 Interpretability 
+  # >
     # <a href="https://scholar.google.com/citations?user=NjhpUykAAAAJ">Google Scholar</a>, <a href="https://github.com/aounon">GitHub</a>, <a href="https://www.linkedin.com/in/aounon-kumar/">LinkedIn</a>
 
 news: false # includes a list of news items
@@ -17,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a software engineer at Personal Robots group of MIT Media Lab. My long term research endeavor is to build aritificial integlligence (AI) systems that support humans decision making under uncertainty. Currently, my research revolves around `interpretability` and `alignment` of language models applied in educational settings. 
+I am a software engineer at Personal Robots group of MIT Media Lab. My long term research endeavor is to build aritificial integlligence (AI) systems that support humans decision making under uncertainty. Currently, my research revolves around `interpretability` and `alignment` of language models in educational settings. 
 
 <!-- It involves designing algorithms to defend models against adversarial inputs, for example, safeguarding large language models (LLMs) from prompts that circumvent safety guardrails. I have studied and contributed to model robustness in several machine learning domains including `computer vision`, `reinforcement learning`, and `language modeling`. My work has been accepted in prominent ML conferences such as `ICML`, `ICLR` and `NeurIPS`, and I am actively involved in collaborative projects within the academic community. -->
 
@@ -60,15 +62,13 @@ I did my undergraduate studies at [IIT Mandi](https://iitmandi.ac.in/) and my ma
   </tr>
 </table -->
 
-<br>
-
 ## Publications
 <!-- See full list at [Google Scholar](https://scholar.google.com/citations?user=NjhpUykAAAAJ). -->
 
 <table>
   <tr><td><br></td><td><br></td></tr>
   <tr>
-    <td valign="top" width="20%"><strong>EMNLP Findings 2025</strong></td>
+    <td valign="top" width="20%"><strong>EMNLP 2025 Findings</strong></td>
     <td><strong>BehaviorSFT: Behavioral Token Conditioning for Clinical Agents Across the
 Proactivity Spectrum</strong><br>
         Yubin Kim, Zhiyuan Hu, Hyewon Jeong, <b>Eugene Park</b>, Shuyue Stella Li, Chanwoo Park, Shiyun
@@ -80,7 +80,7 @@ Hae Won Park<br>
 
     <tr><td><br></td><td><br></td></tr>
   <tr>
-    <td valign="top" width="20%"><strong>Interspeech Oral 2025</strong></td>
+    <td valign="top" width="20%"><strong>Interspeech 2025 Oral</strong></td>
     <td><strong>VocalAgent: Large Language
 Models for Vocal Health Diagnostics with Safety-Aware Evaluation</strong><br>
         Yubin Kim, Taehan Kim, Wonjune Kang, <b>Eugene Park</b>,, Joonsik Yoon, Dongjae Lee, Xin Liu,
@@ -116,7 +116,7 @@ McDuff, Hyeonhoon Lee, Hae Won Park, Samir Tulebaev, Cynthia Breazeal
     <td valign="top" width="20%"><strong>Preprint 2024</strong></td>
     <td><strong>Real-World Pathways to Manufacturing Jobs</strong><br>
         Jeff Dieffenbach, <b>Eugene Park</b>, George Westerman<br>
-        <a href="hhttps://papers.ssrn.com/sol3/papers.cfm?abstract_id=5619230">SSRN</a>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5619230">SSRN</a>
     </td>
   </tr>
   <tr><td><br></td><td><br></td></tr>
