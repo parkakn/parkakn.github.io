@@ -7,8 +7,8 @@ nav: true
 nav_order: 2
 ---
 
-For a complete and updated list, please see [Google Scholar](https://scholar.google.com/citations?user=NjhpUykAAAAJ).
-
+For a complete and updated list, please see [Google Scholar](https://scholar.google.com/citations?user=UEU1gqwAAAAJ).
+<!-- 
 <table>
   <tr><td><br></td><td><br></td></tr>
   <tr>
@@ -142,4 +142,4 @@ For a complete and updated list, please see [Google Scholar](https://scholar.goo
         <a href="https://drops.dagstuhl.de/storage/00lipics/lipics-vol065-fsttcs2016/LIPIcs.FSTTCS.2016.8/LIPIcs.FSTTCS.2016.8.pdf">FSTTCS 2016 PDF</a>
     </td>
   </tr>
-</table>
+</table> -->
