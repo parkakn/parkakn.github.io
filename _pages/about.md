@@ -34,17 +34,16 @@ I completed my undergraduate studies at [Boston College](https://www.bc.edu/), w
 ## News
 
 | | |
-| **Aug 30, 2024** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | :page_facing_up: New pre-print on [Manipulating Large Language Models to Increase Product Visibility](https://arxiv.org/abs/2404.07981)! Covered by [The New York Times](https://www.nytimes.com/2024/08/30/technology/ai-chatbot-chatgpt-manipulation.html). |
+| **Aug, 2025** | Our paper **BehaviorSFT: Behavioral Token Conditioning for Clinical Agents Across the Proactivity Spectrum** has been accepted at findings of [EMNLP 2025](https://2025.emnlp.org/). |
 |  |  |
-| **Jul 10, 2024** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Accepted at COLM 2024 :llama:: [Certifying LLM Safety against Adversarial Prompting](https://openreview.net/forum?id=9Ik05cycLq). Covered by [Science News Magazine](https://www.sciencenews.org/article/generative-ai-chatbots-chatgpt-safety-concerns?trk=feed_main-feed-card_feed-article-content). |
+| **May, 2025** | Our paper **VocalAgent: Large Language Models for Vocal Health Diagnostics with Safety-Aware Evaluation** has been accepted as `Oral presentation` at [Interspeech 2025](https://www.interspeech2025.org/home). |
 |  |  |
-| **Dec 19, 2023** | Graduated from `UMD`! :man_student: | 
+| **Nov, 2024** | I started my appointment as a software engineer at the [Personal Robots group](https://www.media.mit.edu/groups/personal-robots/overview/) of [MIT Media Lab](https://www.media.mit.edu/)! 🤖| 
 
 
 <br>
 ## Selected Publications
 <!-- See full list at [Google Scholar](https://scholar.google.com/citations?user=NjhpUykAAAAJ). -->
-
 <table>
   <tr><td><br></td><td><br></td></tr>
   <tr>
@@ -67,8 +66,7 @@ I completed my undergraduate studies at [Boston College](https://www.bc.edu/), w
   <tr><td><br></td><td><br></td></tr>
   <tr>
     <td valign="top" width="20%"><strong>Interspeech 2025 <br>Oral Presentation</strong></td>
-    <td><strong>VocalAgent: Large Language
-Models for Vocal Health Diagnostics with Safety-Aware Evaluation</strong><br>
+    <td><strong>VocalAgent: Large Language Models for Vocal Health Diagnostics with Safety-Aware Evaluation</strong><br>
         Yubin Kim, Taehan Kim, Wonjune Kang, <b>Eugene Park</b>,, Joonsik Yoon, Dongjae Lee, Xin Liu,
 Daniel McDuff, Hyeonhoon Lee, Cynthia Breazeal, Hae Won Park<br>
         <a href="https://arxiv.org/abs/2505.13577">ArXiv</a>
