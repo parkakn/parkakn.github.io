@@ -28,15 +28,23 @@ I completed my undergraduate studies at [Boston College](https://www.bc.edu/), w
 <br>
 
 ## News
-| | |
-| **Aug 2925** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Our paper [BehaviorSFT: Behavioral Token Conditioning for Clinical Agents Across the Proactivity Spectrum](https://arxiv.org/abs/2505.21757) has been accepted at Findings of [EMNLP 2025](https://2025.emnlp.org/). |
-| | |
-| **May 2025**&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Our paper [VocalAgent: Large Language Models for Vocal Health Diagnostics with Safety-Aware Evaluation](https://arxiv.org/abs/2505.13577) has been accepted as an Oral Presentation at [Interspeech 2025](https://www.interspeech2025.org/home). |
-| | |
-|**Nov 2024** | I started my appointment as a software engineer at the [Personal Robots Group](https://www.media.mit.edu/groups/personal-robots/overview/) of [MIT Media Lab](https://www.media.mit.edu/)! 🤖 |
+
+<table>
+  <tr>
+    <td style="white-space: nowrap; vertical-align: top; padding-right: 1.5rem;"><strong>Aug 2025</strong></td>
+    <td>Our paper <a href="https://arxiv.org/abs/2505.21757">BehaviorSFT: Behavioral Token Conditioning for Clinical Agents Across the Proactivity Spectrum</a> has been accepted at Findings of <a href="https://2025.emnlp.org/">EMNLP 2025</a>.</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap; vertical-align: top; padding-right: 1.5rem;"><strong>May 2025</strong></td>
+    <td>Our paper <a href="https://arxiv.org/abs/2505.13577">VocalAgent: Large Language Models for Vocal Health Diagnostics with Safety-Aware Evaluation</a> has been accepted as an Oral Presentation at <a href="https://www.interspeech2025.org/home">Interspeech 2025</a>.</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap; vertical-align: top; padding-right: 1.5rem;"><strong>Nov 2024</strong></td>
+    <td>I started my appointment as a software engineer at the <a href="https://www.media.mit.edu/groups/personal-robots/overview/">Personal Robots Group</a> of <a href="https://www.media.mit.edu/">MIT Media Lab</a>! 🤖</td>
+  </tr>
+</table>
 
 <br>
-
 ## Selected Publications
 <!-- See full list at [Google Scholar](https://scholar.google.com/citations?user=NjhpUykAAAAJ). -->
 <table>
