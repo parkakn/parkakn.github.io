@@ -23,7 +23,7 @@ I am a software engineer at [Personal Robots group](https://www.media.mit.edu/gr
 
 Before MIT, I completed my Master of Science in Mathematics at the [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/dynamic/) at New York University with a master's thesis on applying machine learning methods to stock return forecasting ([preprint](https://arxiv.org/abs/2307.00459)). I was fortunate to be advised by Professor [Kenneth Winston](https://math-finance.cims.nyu.edu/team/kenneth-winston/) and to receive additional mentorship from Professor [Jonathan Goodman](https://cims.nyu.edu/people/profiles/GOODMAN_Jonathan.html).
 
-I completed my undergraduate studies at [Boston College](https://www.bc.edu/), where I studied a wide range of topics across mathematics, economics, and finance. My senior honors thesis examined the transfer of instability between the stock market and the real economy, focusing on how financial shocks propagate through the business cycle.
+I completed my undergraduate studies at [Boston College](https://www.bc.edu/), where I studied a wide range of topics across mathematics, economics, and finance. I was fortunate to receive guidance from Professor [Robert Murphy](https://www.bc.edu/bc-web/offices/office-of-university-communications/for-the-media/boston-college-faculty-experts/robert-murphy.html) on my senior honors thesis, which examined how instability in the stock market propagates into the real economy.
 
 <br>
 
@@ -34,10 +34,14 @@ I completed my undergraduate studies at [Boston College](https://www.bc.edu/), w
     <td style="white-space: nowrap; vertical-align: top; padding-right: 1.5rem;"><strong>Aug 2025</strong></td>
     <td>Our paper <a href="https://arxiv.org/abs/2505.21757">BehaviorSFT: Behavioral Token Conditioning for Clinical Agents Across the Proactivity Spectrum</a> has been accepted at Findings of <a href="https://2025.emnlp.org/">EMNLP 2025</a>.</td>
   </tr>
+  <tr><td><br></td><td><br></td></tr>
+
   <tr>
     <td style="white-space: nowrap; vertical-align: top; padding-right: 1.5rem;"><strong>May 2025</strong></td>
     <td>Our paper <a href="https://arxiv.org/abs/2505.13577">VocalAgent: Large Language Models for Vocal Health Diagnostics with Safety-Aware Evaluation</a> has been accepted as an Oral Presentation at <a href="https://www.interspeech2025.org/home">Interspeech 2025</a>.</td>
   </tr>
+  <tr><td><br></td><td><br></td></tr>
+
   <tr>
     <td style="white-space: nowrap; vertical-align: top; padding-right: 1.5rem;"><strong>Nov 2024</strong></td>
     <td>I started my appointment as a software engineer at the <a href="https://www.media.mit.edu/groups/personal-robots/overview/">Personal Robots Group</a> of <a href="https://www.media.mit.edu/">MIT Media Lab</a>! 🤖</td>
@@ -45,10 +49,10 @@ I completed my undergraduate studies at [Boston College](https://www.bc.edu/), w
 </table>
 
 <br>
+
 ## Selected Publications
 <!-- See full list at [Google Scholar](https://scholar.google.com/citations?user=NjhpUykAAAAJ). -->
 <table>
-  <tr><td><br></td><td><br></td></tr>
   <tr>
     <td valign="top" width="20%"><strong>ICLR 2026 <br>(Under Review)</strong></td>
     <td><strong>InvThink: Towards AI Safety via Inverse Reasoning</strong><br>
