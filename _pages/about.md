@@ -25,6 +25,10 @@ Before MIT, I completed my Master of Science in Mathematics at the [Courant Inst
 
 I completed my undergraduate studies at [Boston College](https://www.bc.edu/), where I studied a wide range of topics across mathematics, economics, and finance. I was fortunate to receive guidance from Professor [Robert Murphy](https://www.bc.edu/bc-web/offices/office-of-university-communications/for-the-media/boston-college-faculty-experts/robert-murphy.html) on my senior honors thesis, which examined how instability in the stock market propagates into the real economy.
 
+<!-- Before joining the MIT Media Lab, I worked as a data scientist at [MIT Open Learning](https://openlearning.mit.edu/), where I modeled job-mobility pathways for a project funded by the [Air Force Research Laboratory](https://www.afrl.af.mil/). I also spent time as a research assistant at the [MIT Sloan School of Management](https://mitsloan.mit.edu/) under the guidance of Professor [Antoinette Schoar](https://mitsloan.mit.edu/faculty/directory/antoinette-schoar). I completed my Master of Science in Mathematics at the [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/dynamic/) at New York University with a master's thesis on applying machine learning methods to stock return forecasting ([preprint](https://arxiv.org/abs/2307.00459)). I was fortunate to be advised by Professor [Kenneth Winston](https://math-finance.cims.nyu.edu/team/kenneth-winston/) and to receive additional mentorship from Professor [Jonathan Goodman](https://cims.nyu.edu/people/profiles/GOODMAN_Jonathan.html).
+
+I completed my undergraduate studies at [Boston College](https://www.bc.edu/), where I studied a wide range of topics across mathematics, economics, and finance. My senior honors thesis, advised by Professor [Robert Murphy](https://www.bc.edu/bc-web/offices/office-of-university-communications/for-the-media/boston-college-faculty-experts/robert-murphy.html), examined how instability in the stock market propagates into the real economy. -->
+
 <br>
 
 ## News
