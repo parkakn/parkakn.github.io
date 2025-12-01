@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <strong><font size="4">Software Engineer at MIT</font></strong>
+subtitle: <strong><font size="4">🧠 Cognitive AI &nbsp; • &nbsp; 🤝 Alignment &nbsp; • &nbsp; 🕵 Interpretability</font></strong>
 
 profile:
   align: right
@@ -18,27 +18,26 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a software engineer at [Personal Robots group](https://www.media.mit.edu/groups/personal-robots/overview/) of [MIT Media Lab](https://www.media.mit.edu/). My long term research endeavor is to advance aritificial integlligence (AI) that improves humans decision making under uncertainty, especially in education and finance. Currently, my research revolves around `interpretability` and `alignment` of language models (LMs) as modern AI tutors. I study how they behave pedagogically, how their behavior influences student learning, and how different alignment techniques shape those outcomes. I also develop core components of [PyTutor](https://www.media.mit.edu/projects/pytutor-empowering-equitable-education-pathways-in-computing-with-generative-ai/overview/), an AI tutoring platform deployed across multiple universities as part of the [MIT RAISE](https://raise.mit.edu/) initiative. 
+I am a software engineer at [Personal Robots group](https://www.media.mit.edu/groups/personal-robots/overview/) of [MIT Media Lab](https://www.media.mit.edu/). My long term research endeavor is to advance artificial intelligence (AI) that improves humans decision making under uncertainty, especially in education and finance. Currently, my research revolves around `interpretability` and `alignment` of language models (LMs) as modern AI tutors. I study how they behave pedagogically, how their behavior influences student learning, and how different alignment techniques shape those outcomes. I also develop core components of [PyTutor](https://www.media.mit.edu/projects/pytutor-empowering-equitable-education-pathways-in-computing-with-generative-ai/overview/), an AI tutoring platform deployed across multiple universities as part of the [MIT RAISE](https://raise.mit.edu/) initiative. 
 <!-- , such as advanced  retrieval for PyTutor’s retrieval-augemented generation (RAG) pipeline and personalized feedback feature based on student’s classroom performance. -->
 
 Before MIT, I completed my Master of Science in Mathematics at the [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/dynamic/) at New York University with a master's thesis on applying machine learning methods to stock return forecasting ([preprint](https://arxiv.org/abs/2307.00459)). I was fortunate to be advised by Professor [Kenneth Winston](https://math-finance.cims.nyu.edu/team/kenneth-winston/) and to receive additional mentorship from Professor [Jonathan Goodman](https://cims.nyu.edu/people/profiles/GOODMAN_Jonathan.html).
 
 I completed my undergraduate studies at [Boston College](https://www.bc.edu/), where I studied a wide range of topics across mathematics, economics, and finance. My senior honors thesis examined the transfer of instability between the stock market and the real economy, focusing on how financial shocks propagate through the business cycle.
 
-<div align="center">
+<!-- <div align="center">
 🧠 Cognitive AI &nbsp; • &nbsp; 🤝 Alignment &nbsp; • &nbsp; 🕵 Interpretability
-</div>
-
+</div> -->
 
 <br>
 ## News
 
 | | |
-| **Aug, 2025** | Our paper **BehaviorSFT: Behavioral Token Conditioning for Clinical Agents Across the Proactivity Spectrum** has been accepted at findings of [EMNLP 2025](https://2025.emnlp.org/). |
+| **Aug 2025** | Our paper **BehaviorSFT: Behavioral Token Conditioning for Clinical Agents Across the Proactivity Spectrum** has been accepted at findings of [EMNLP 2025](https://2025.emnlp.org/). |
 |  |  |
-| **May, 2025** | Our paper **VocalAgent: Large Language Models for Vocal Health Diagnostics with Safety-Aware Evaluation** has been accepted as `Oral presentation` at [Interspeech 2025](https://www.interspeech2025.org/home). |
+| **May 2025** | Our paper **VocalAgent: Large Language Models for Vocal Health Diagnostics with Safety-Aware Evaluation** has been accepted as `Oral presentation` at [Interspeech 2025](https://www.interspeech2025.org/home). |
 |  |  |
-| **Nov, 2024** | I started my appointment as a software engineer at the [Personal Robots group](https://www.media.mit.edu/groups/personal-robots/overview/) of [MIT Media Lab](https://www.media.mit.edu/)! 🤖| 
+| **Nov 2024** | I started my appointment as a software engineer at the [Personal Robots group](https://www.media.mit.edu/groups/personal-robots/overview/) of [MIT Media Lab](https://www.media.mit.edu/)! 🤖| 
 
 
 <br>
@@ -67,7 +66,7 @@ I completed my undergraduate studies at [Boston College](https://www.bc.edu/), w
   <tr>
     <td valign="top" width="20%"><strong>Interspeech 2025 <br>Oral Presentation</strong></td>
     <td><strong>VocalAgent: Large Language Models for Vocal Health Diagnostics with Safety-Aware Evaluation</strong><br>
-        Yubin Kim, Taehan Kim, Wonjune Kang, <b>Eugene Park</b>,, Joonsik Yoon, Dongjae Lee, Xin Liu,
+        Yubin Kim, Taehan Kim, Wonjune Kang, <b>Eugene Park</b>, Joonsik Yoon, Dongjae Lee, Xin Liu,
 Daniel McDuff, Hyeonhoon Lee, Cynthia Breazeal, Hae Won Park<br>
         <a href="https://arxiv.org/abs/2505.13577">ArXiv</a>
     </td>
