@@ -25,21 +25,18 @@ Before MIT, I completed my Master of Science in Mathematics at the [Courant Inst
 
 I completed my undergraduate studies at [Boston College](https://www.bc.edu/), where I studied a wide range of topics across mathematics, economics, and finance. My senior honors thesis examined the transfer of instability between the stock market and the real economy, focusing on how financial shocks propagate through the business cycle.
 
-<!-- <div align="center">
-  <a href="https://scholar.google.com/citations?user=UEU1gqwAAAAJ">Google Scholar</a>, <a href="https://github.com/parkakn">GitHub</a>, <a href="https://www.linkedin.com/in/eugene-park-/">LinkedIn</a>
-</div> -->
-
 <br>
+
 ## News
-
 | | |
-| <span style="white-space: nowrap;"><b>Aug 2025</b></span> | Our paper [BehaviorSFT: Behavioral Token Conditioning for Clinical Agents Across the Proactivity Spectrum](https://arxiv.org/abs/2505.21757) has been accepted at Findings of [EMNLP 2025](https://2025.emnlp.org/). |
+| **Aug 2925** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Our paper [BehaviorSFT: Behavioral Token Conditioning for Clinical Agents Across the Proactivity Spectrum](https://arxiv.org/abs/2505.21757) has been accepted at Findings of [EMNLP 2025](https://2025.emnlp.org/). |
 | | |
-| <span style="white-space: nowrap;"><b>May 2025</b></span> | Our paper [VocalAgent: Large Language Models for Vocal Health Diagnostics with Safety-Aware Evaluation](https://arxiv.org/abs/2505.13577) has been accepted as an Oral Presentation at [Interspeech 2025](https://www.interspeech2025.org/home). |
+| **May 2025**&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Our paper [VocalAgent: Large Language Models for Vocal Health Diagnostics with Safety-Aware Evaluation](https://arxiv.org/abs/2505.13577) has been accepted as an Oral Presentation at [Interspeech 2025](https://www.interspeech2025.org/home). |
 | | |
-| <span style="white-space: nowrap;"><b>Nov 2024</b></span> | I started my appointment as a software engineer at the [Personal Robots Group](https://www.media.mit.edu/groups/personal-robots/overview/) of [MIT Media Lab](https://www.media.mit.edu/)! 🤖 |
+|**Nov 2024** | I started my appointment as a software engineer at the [Personal Robots Group](https://www.media.mit.edu/groups/personal-robots/overview/) of [MIT Media Lab](https://www.media.mit.edu/)! 🤖 |
 
 <br>
+
 ## Selected Publications
 <!-- See full list at [Google Scholar](https://scholar.google.com/citations?user=NjhpUykAAAAJ). -->
 <table>
