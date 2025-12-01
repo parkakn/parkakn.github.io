@@ -33,10 +33,11 @@ I completed my undergraduate studies at [Boston College](https://www.bc.edu/), w
 ## News
 
 | | |
-| **Aug 2025** | Our paper [BehaviorSFT: Behavioral Token Conditioning for Clinical Agents Across the Proactivity Spectrum](https://arxiv.org/abs/2505.21757) has been accepted at findings of [EMNLP 2025](https://2025.emnlp.org/). |
-| **May 2025** | Our paper [VocalAgent: Large Language Models for Vocal Health Diagnostics with Safety-Aware Evaluation](https://arxiv.org/abs/2505.13577) has been accepted as `Oral presentation` at [Interspeech 2025](https://www.interspeech2025.org/home). |
-| **Nov 2024** | I started my appointment as a software engineer at the [Personal Robots group](https://www.media.mit.edu/groups/personal-robots/overview/) of [MIT Media Lab](https://www.media.mit.edu/)! 🤖| 
-
+| <span style="white-space: nowrap;"><b>Aug 2025</b></span> | Our paper [BehaviorSFT: Behavioral Token Conditioning for Clinical Agents Across the Proactivity Spectrum](https://arxiv.org/abs/2505.21757) has been accepted at Findings of [EMNLP 2025](https://2025.emnlp.org/). |
+| | |
+| <span style="white-space: nowrap;"><b>May 2025</b></span> | Our paper [VocalAgent: Large Language Models for Vocal Health Diagnostics with Safety-Aware Evaluation](https://arxiv.org/abs/2505.13577) has been accepted as an Oral Presentation at [Interspeech 2025](https://www.interspeech2025.org/home). |
+| | |
+| <span style="white-space: nowrap;"><b>Nov 2024</b></span> | I started my appointment as a software engineer at the [Personal Robots Group](https://www.media.mit.edu/groups/personal-robots/overview/) of [MIT Media Lab](https://www.media.mit.edu/)! 🤖 |
 
 <br>
 ## Selected Publications
