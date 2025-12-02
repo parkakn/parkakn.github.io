@@ -2,13 +2,13 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <strong><font size="4">🧠 Cognitive AI &nbsp; • &nbsp; 🤝 Alignment &nbsp; • &nbsp; 🕵 Interpretability</font></strong>
+subtitle: <strong><font size="4">🕵 Interpretability &nbsp; • &nbsp; 🤝 Alignment &nbsp; • &nbsp; 🧠 AI Systems for Decision-Making </font></strong>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: false # 🧠 Cognitive AI, 🤝 LLM Alignment, 🕵 Interpretability 
+  more_info: false 
   # >
     # <a href="https://scholar.google.com/citations?user=NjhpUykAAAAJ">Google Scholar</a>, <a href="https://github.com/aounon">GitHub</a>, <a href="https://www.linkedin.com/in/aounon-kumar/">LinkedIn</a>
 
