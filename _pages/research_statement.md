@@ -3,6 +3,6 @@
 permalink: /statement/
 title: Research Statement
 pdf: assets/pdf/Research_Statement.pdf
-# nav: true
+nav: false
 nav_order: 5
 ---
