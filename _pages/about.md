@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <strong><font size="4">🕵 Interpretability &nbsp; • &nbsp; 🤝 Alignment &nbsp; • &nbsp; 🧠 AI Systems for Decision-Making </font></strong>
+subtitle: <strong><font size="4">🧠 AI Systems for Decision-Making &nbsp; • &nbsp; 🤝 Alignment &nbsp; • &nbsp; 🕵 Interpretability </font></strong>
 
 profile:
   align: right
