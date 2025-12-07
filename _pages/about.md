@@ -58,7 +58,7 @@ I completed my undergraduate studies at [Boston College](https://www.bc.edu/), w
 <!-- See full list at [Google Scholar](https://scholar.google.com/citations?user=NjhpUykAAAAJ). -->
 <table>
   <tr>
-    <td valign="top" width="20%"><strong>ISLS 2026<br>Workshop<br>(In Submission)</strong></td>
+    <td valign="top" width="20%"><strong>ISLS 2026 Workshop<br>(In Submission)</strong></td>
     <td><strong>An Evaluation Framework for Pedagogical Large Language Models</strong><br>
         <b>Eugene Park</b>, Daniel Wjendel, Grace Lin, Sharifa Alghowinem, Eric Klopfer, Cynthia Breazeal<br>
     </td>
