@@ -91,15 +91,17 @@ Daniel McDuff, Hyeonhoon Lee, Cynthia Breazeal, Hae Won Park<br>
         <a href="https://arxiv.org/abs/2505.13577">ArXiv</a>
     </td>
   </tr>
-
   <tr><td><br></td><td><br></td></tr>
-  <tr>
+
+  <!-- <tr>
     <td valign="top" width="20%"><strong>Preprint 2024</strong></td>
     <td><strong>Swamps, Springboards,  and the Demographic Dynamics  of Occupational Mobility Identifying Enablers and Inhibitors of Career Growth by Mining Education and Employment Histories  for Millions of U.S. Workers</strong><br>
         Chris Compton, <b>Eugene Park</b>, Matthew Walsh , George Westerman<br>
         <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5616190">SSRN</a>
     </td>
   </tr>
+  <tr><td><br></td><td><br></td></tr> -->
+
   <!-- <tr>
     <td valign="top" width="20%"><strong>Preprint 2024</strong></td>
     <td><strong>Real-World Pathways to Manufacturing Jobs</strong><br>
@@ -109,7 +111,6 @@ Daniel McDuff, Hyeonhoon Lee, Cynthia Breazeal, Hae Won Park<br>
   </tr>
   <tr><td><br></td><td><br></td></tr> -->
   
-  <tr><td><br></td><td><br></td></tr>
   <tr>
     <td valign="top" width="20%"><strong>Master's Thesis</strong></td>
     <td><strong>Principal Component Analysis and Hidden Markov Model for Forecasting Stock Returns</strong><br>
