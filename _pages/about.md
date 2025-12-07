@@ -58,14 +58,22 @@ I completed my undergraduate studies at [Boston College](https://www.bc.edu/), w
 <!-- See full list at [Google Scholar](https://scholar.google.com/citations?user=NjhpUykAAAAJ). -->
 <table>
   <tr>
+    <td valign="top" width="20%"><strong>ISLS 2026<br>Workshop<br>(In Submission)</strong></td>
+    <td><strong>An Evaluation Framework for Pedagogical Large Language Models</strong><br>
+        <b>Eugene Park</b>, Daniel Wjendel, Grace Lin, Sharifa Alghowinem<br>
+    </td>
+  </tr>
+  <tr><td><br></td><td><br></td></tr>
+
+  <tr>
     <td valign="top" width="20%"><strong>ICLR 2026 <br>(Under Review)</strong></td>
     <td><strong>InvThink: Towards AI Safety via Inverse Reasoning</strong><br>
         Yubin Kim, Taehan Kim, <b>Eugene Park</b>, Chunjong Park, Cynthia Breazeal, Daniel McDuff, Hae Won Park<br>
         <a href="https://openreview.net/forum?id=Fbe7OnbkAn">Open Review</a>, <a href="https://arxiv.org/abs/2510.01569">ArXiv</a>
     </td>
   </tr>
-
   <tr><td><br></td><td><br></td></tr>
+
   <tr>
     <td valign="top" width="20%"><strong>EMNLP 2025 Findings</strong></td>
     <td><strong>BehaviorSFT: Behavioral Token Conditioning for Clinical Agents Across the Proactivity Spectrum</strong><br>
@@ -83,20 +91,6 @@ Daniel McDuff, Hyeonhoon Lee, Cynthia Breazeal, Hae Won Park<br>
         <a href="https://arxiv.org/abs/2505.13577">ArXiv</a>
     </td>
   </tr>
-  
-  <!-- <tr><td><br></td><td><br></td></tr>
-  <tr>
-    <td valign="top" width="20%"><strong>Preprint 2025</strong></td>
-    <td><strong>Medical Hallucination in Foundation Models and Their Impact on Healthcare</strong><br>
-        Yubin Kim, Hyewon Jeong, Shan Chen, Shuyue Stella Li, Mingyu Lu, Kumail Alhamoud, Jimin
-Mun, Cristina Grau, Minseok Jung, Rodrigo Gameiro, Lizhou Fan, <b>Eugene Park</b>, Tristan Lin,
-Joonsik Yoon, Wonjin Yoon, Maarten Sap, Yulia Tsvetkov, Paul Liang, Xuhai Xu, Xin Liu, Daniel
-McDuff, Hyeonhoon Lee, Hae Won Park, Samir Tulebaev, Cynthia Breazeal
-        <br>
-        <a href="https://www.medrxiv.org/content/10.1101/2025.02.28.25323115v1.full">medRxiv</a>
-      </td>
-  </tr>
-  <tr><td><br></td><td><br></td></tr> -->
 
   <tr><td><br></td><td><br></td></tr>
   <tr>
