@@ -13,7 +13,7 @@ For a complete and updated list, please see [Google Scholar](https://scholar.goo
   <tr>
     <td valign="top" width="20%"><strong>ISLS 2026<br>Workshop<br>(In Submission)</strong></td>
     <td><strong>An Evaluation Framework for Pedagogical Large Language Models</strong><br>
-        <b>Eugene Park</b>, Daniel Wjendel, Grace Lin, Sharifa Alghowinem, Eric Klopfer, Cynthia Breazeal<br>
+        <b>Eugene Park</b>, Daniel Wjendel, Grace Lin, Sharifa Alghowinem, Hal Abelson, Eric Klopfer, Cynthia Breazeal<br>
     </td>
   </tr>
   <tr><td><br></td><td><br></td></tr>
