@@ -1,0 +1,258 @@
+<style>
+.projects-showcase {
+  margin: 40px 0;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.project-showcase-card {
+  background: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.project-showcase-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.project-preview {
+  width: 100%;
+  height: 280px;
+  background: #f8f9fa;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.project-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.project-card-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.project-meta-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.project-venue {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.project-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.875rem;
+  color: #7c3aed;
+  font-weight: 500;
+}
+
+.project-tag::before {
+  content: "●";
+  font-size: 8px;
+}
+
+.project-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.project-authors {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.project-authors .author-highlight {
+  color: #7c3aed;
+  font-weight: 600;
+}
+
+.project-award {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: #fef3e7;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #d97706;
+  margin-bottom: 16px;
+}
+
+.project-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.project-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background: #f3f4f6;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #4b5563;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.project-link-btn:hover {
+  background: #e5e7eb;
+  color: #1f2937;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.project-link-btn svg,
+.project-link-btn i {
+  width: 16px;
+  height: 16px;
+}
+
+/* Icon styles */
+.icon-paper::before {
+  content: "📄";
+  margin-right: 4px;
+}
+
+.icon-dataset::before {
+  content: "🗂️";
+  margin-right: 4px;
+}
+
+.icon-project::before {
+  content: "🔗";
+  margin-right: 4px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .project-preview {
+    height: 220px;
+  }
+}
+</style>
+
+<div class="projects-showcase">
+  <div class="projects-grid">
+    
+    <!-- Project Card 1 -->
+    <div class="project-showcase-card">
+      <div class="project-preview">
+        <img src="/assets/img/projects/project1_preview.png" alt="Project 1 Preview">
+      </div>
+      <div class="project-card-content">
+        <div class="project-meta-info">
+          <span class="project-venue">EMNLP 2025</span>
+          <span class="project-tag">nlp</span>
+        </div>
+        <h3 class="project-card-title">
+          trial
+        </h3>
+        <p class="project-authors">
+          <span class="author-highlight">Eugene Park</span>
+        </p>
+        <div class="project-links">
+          <a href="#" class="project-link-btn icon-paper">paper</a>
+          <a href="#" class="project-link-btn icon-dataset">dataset</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Card 2 -->
+    <div class="project-showcase-card">
+      <div class="project-preview">
+        <img src="/assets/img/projects/project2_preview.png" alt="Project 2 Preview">
+      </div>
+      <div class="project-card-content">
+        <div class="project-meta-info">
+          <span class="project-venue">CHI 2025</span>
+          <span class="project-tag">hci</span>
+        </div>
+        <h3 class="project-card-title">
+          try
+        </h3>
+        <p class="project-authors">
+          <span class="author-highlight">Eugene Park</span>
+        </p>
+        <div class="project-award">
+          🏆 Honorable Mention
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link-btn icon-paper">paper</a>
+          <a href="#" class="project-link-btn icon-project">project</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Card 3 -->
+    <div class="project-showcase-card">
+      <div class="project-preview">
+        <img src="/assets/img/projects/project3_preview.png" alt="Project 3 Preview">
+      </div>
+      <div class="project-card-content">
+        <div class="project-meta-info">
+          <span class="project-venue">HRI 2025</span>
+          <span class="project-tag">hci</span>
+        </div>
+        <h3 class="project-card-title">
+          try
+        </h3>
+        <p class="project-authors">
+          <span class="author-highlight">Eugene Park</span>
+        </p>
+        <div class="project-links">
+          <a href="#" class="project-link-btn icon-paper">paper</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
