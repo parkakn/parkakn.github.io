@@ -124,7 +124,7 @@ Daniel McDuff, Hyeonhoon Lee, Cynthia Breazeal, Hae Won Park<br>
 
 ## Selected Projects
 
-{% include try.html %}
+<!-- {% include try.html %} -->
 <br>
 
 ## Contact
