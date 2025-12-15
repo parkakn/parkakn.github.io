@@ -6,7 +6,7 @@ subtitle: <strong><font size="4">🧠 AI Systems for Decision-Making &nbsp; • 
 
 profile:
   align: right
-  image: headshot.jpg
+  image: prof_pic2.jpg
   image_circular: false # crops the image to make it circular
   more_info: false 
   # >
