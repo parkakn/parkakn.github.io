@@ -5,177 +5,222 @@
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin-top: 30px;
 }
 
-.project-showcase-card {
+.project-card {
   background: white;
   border: 1px solid #e5e5e5;
-  border-radius: 16px;
+  border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 
-.project-showcase-card:hover {
+.project-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
-.project-preview {
+.project-image {
   width: 100%;
-  height: 280px;
-  background: #f8f9fa;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 200px;
   overflow: hidden;
+  background: #f8f9fa;
 }
 
-.project-preview img {
+.project-image img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
-.project-card-content {
-  padding: 24px;
+.project-card-body {
+  padding: 20px;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
-.project-meta-info {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 16px;
-}
-
-.project-venue {
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: #666;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.project-tag {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 0.875rem;
-  color: #7c3aed;
-  font-weight: 500;
-}
-
-.project-tag::before {
-  content: "●";
-  font-size: 8px;
-}
-
-.project-card-title {
-  font-size: 1.25rem;
+.project-title {
+  font-size: 1.1rem;
   font-weight: 700;
   line-height: 1.4;
   color: #1a1a1a;
-  margin-bottom: 16px;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  margin-bottom: 8px;
 }
 
-.project-authors {
-  font-size: 0.9375rem;
-  line-height: 1.6;
+.project-date {
+  font-size: 0.875rem;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.project-short-desc {
+  font-size: 0.9rem;
   color: #555;
-  margin-bottom: 16px;
+  line-height: 1.5;
 }
 
-.project-authors .author-highlight {
-  color: #7c3aed;
-  font-weight: 600;
+/* Modal styles */
+.project-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  animation: fadeIn 0.3s ease;
 }
 
-.project-award {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 6px 12px;
-  background: #fef3e7;
-  border-radius: 6px;
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: #d97706;
-  margin-bottom: 16px;
-}
-
-.project-links {
+.project-modal.active {
   display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-top: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
-.project-link-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 16px;
-  background: #f3f4f6;
+.modal-content {
+  background: white;
+  border-radius: 16px;
+  max-width: 800px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: slideUp 0.3s ease;
+}
+
+.modal-header {
+  padding: 30px;
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 28px;
+  font-weight: 300;
+  color: #666;
+  cursor: pointer;
+  background: none;
   border: none;
-  border-radius: 8px;
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #4b5563;
-  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: all 0.2s ease;
 }
 
-.project-link-btn:hover {
+.modal-close:hover {
+  background: #f3f4f6;
+  color: #1a1a1a;
+}
+
+.modal-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+  padding-right: 40px;
+}
+
+.modal-date {
+  font-size: 1rem;
+  color: #666;
+}
+
+.modal-body {
+  padding: 30px;
+}
+
+.modal-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.modal-description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.modal-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.modal-link {
+  padding: 10px 20px;
+  background: #f3f4f6;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #4b5563;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.modal-link:hover {
   background: #e5e7eb;
   color: #1f2937;
   text-decoration: none;
-  transform: translateY(-1px);
+  transform: translateY(-2px);
 }
 
-.project-link-btn svg,
-.project-link-btn i {
-  width: 16px;
-  height: 16px;
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
-/* Icon styles */
-.icon-paper::before {
-  content: "📄";
-  margin-right: 4px;
-}
-
-.icon-dataset::before {
-  content: "🗂️";
-  margin-right: 4px;
-}
-
-.icon-project::before {
-  content: "🔗";
-  margin-right: 4px;
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Responsive */
+@media (max-width: 992px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
   .projects-grid {
     grid-template-columns: 1fr;
   }
   
-  .project-preview {
-    height: 220px;
+  .modal-content {
+    margin: 20px;
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
   }
 }
 </style>
@@ -184,75 +229,130 @@
   <div class="projects-grid">
     
     <!-- Project Card 1 -->
-    <div class="project-showcase-card">
-      <div class="project-preview">
-        <img src="/assets/img/projects/project1_preview.png" alt="Project 1 Preview">
+    <!-- <div class="project-card" onclick="openModal('modal1')">
+      <div class="project-image">
+        <img src="/assets/img/projects/project1.jpg" alt="Project 1">
       </div>
-      <div class="project-card-content">
-        <div class="project-meta-info">
-          <span class="project-venue">EMNLP 2025</span>
-          <span class="project-tag">nlp</span>
-        </div>
-        <h3 class="project-card-title">
-          trial
-        </h3>
-        <p class="project-authors">
-          <span class="author-highlight">Eugene Park</span>
-        </p>
-        <div class="project-links">
-          <a href="#" class="project-link-btn icon-paper">paper</a>
-          <a href="#" class="project-link-btn icon-dataset">dataset</a>
-        </div>
+      <div class="project-card-body">
+        <h3 class="project-title">PyTutor AI Tutoring Platform</h3>
+        <p class="project-date">2024 - Present</p>
+        <p class="project-short-desc">AI-powered tutoring system deployed across multiple universities</p>
       </div>
-    </div>
+    </div> -->
 
     <!-- Project Card 2 -->
-    <div class="project-showcase-card">
-      <div class="project-preview">
-        <img src="/assets/img/projects/project2_preview.png" alt="Project 2 Preview">
+    <div class="project-card" onclick="openModal('modal2')">
+      <div class="project-image">
+        <img src="/assets/img/projects/project2.jpg" alt="Project 2">
       </div>
-      <div class="project-card-content">
-        <div class="project-meta-info">
-          <span class="project-venue">CHI 2025</span>
-          <span class="project-tag">hci</span>
-        </div>
-        <h3 class="project-card-title">
-          try
-        </h3>
-        <p class="project-authors">
-          <span class="author-highlight">Eugene Park</span>
-        </p>
-        <div class="project-award">
-          🏆 Honorable Mention
-        </div>
-        <div class="project-links">
-          <a href="#" class="project-link-btn icon-paper">paper</a>
-          <a href="#" class="project-link-btn icon-project">project</a>
-        </div>
+      <div class="project-card-body">
+        <h3 class="project-title">Robo-Advisor for the Korean Individual Retirement Pension Funds</h3>
+        <p class="project-date">2024</p>
+        <p class="project-short-desc">Semi-systematic, algorithmic trading system for managing individual retirement pension funds in South Korea</p>
       </div>
     </div>
 
     <!-- Project Card 3 -->
-    <div class="project-showcase-card">
-      <div class="project-preview">
-        <img src="/assets/img/projects/project3_preview.png" alt="Project 3 Preview">
+    <!-- <div class="project-card" onclick="openModal('modal3')">
+      <div class="project-image">
+        <img src="/assets/img/projects/project3.jpg" alt="Project 3">
       </div>
-      <div class="project-card-content">
-        <div class="project-meta-info">
-          <span class="project-venue">HRI 2025</span>
-          <span class="project-tag">hci</span>
-        </div>
-        <h3 class="project-card-title">
-          try
-        </h3>
-        <p class="project-authors">
-          <span class="author-highlight">Eugene Park</span>
-        </p>
-        <div class="project-links">
-          <a href="#" class="project-link-btn icon-paper">paper</a>
-        </div>
+      <div class="project-card-body">
+        <h3 class="project-title">Educational Analytics Dashboard</h3>
+        <p class="project-date">2024</p>
+        <p class="project-short-desc">Data visualization platform for student learning insights</p>
       </div>
-    </div>
+    </div> -->
 
   </div>
 </div>
+
+<!-- Modal 1 -->
+<!-- <div id="modal1" class="project-modal" onclick="closeModal('modal1')">
+  <div class="modal-content" onclick="event.stopPropagation()">
+    <div class="modal-header">
+      <button class="modal-close" onclick="closeModal('modal1')">&times;</button>
+      <h2 class="modal-title">PyTutor AI Tutoring Platform</h2>
+      <p class="modal-date">2024 - Present</p>
+    </div>
+    <div class="modal-body">
+      <img src="/assets/img/projects/project1.jpg" alt="Project 1" class="modal-image">
+      <div class="modal-description">
+        <p>Developed core components of PyTutor, an AI tutoring platform deployed across multiple universities as part of the MIT RAISE initiative. The platform leverages large language models to provide personalized educational support to students.</p>
+        <p>Key contributions include advanced retrieval systems for the RAG pipeline, personalized feedback features based on student classroom performance, and interpretability tools for understanding AI tutor behavior.</p>
+        <p>The system has been successfully deployed at multiple institutions and is actively being used by hundreds of students to enhance their learning experience in computer science courses.</p>
+      </div>
+      <div class="modal-links">
+        <a href="https://raise.mit.edu/research/research-projects/pytutor/" class="modal-link" target="_blank" rel="noopener">🔗 Project Page</a>
+        <a href="#" class="modal-link">📄 Paper</a>
+        <a href="#" class="modal-link">💻 Demo</a>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!-- Modal 2 -->
+<div id="modal2" class="project-modal" onclick="closeModal('modal2')">
+  <div class="modal-content" onclick="event.stopPropagation()">
+    <div class="modal-header">
+      <button class="modal-close" onclick="closeModal('modal2')">&times;</button>
+      <h2 class="modal-title">Robo-Advisor for the Korean Individual Retirement Pension Funds</h2>
+      <p class="modal-date">2024</p>
+    </div>
+    <div class="modal-body">
+      <img src="/assets/img/backtest.jpg" alt="Project 2" class="modal-image">
+      <div class="modal-description">
+        <p>In 2023, the Financial Services Commission of South Korea announced the integration of quantitative approaches to investment management and advisory services into the national retirement pension system. Under this policy, "robo-advisors" - quantitative, model-driven investment systems approved by the <a href="https://www.ratestbed.kr:7443/portal/main/main.do" target="_blank" rel="noopener nofollow">Robo Advisor Test Bed Center</a> - are authorized to provide investment advisory and management services for Individual Retirement Pension (IRP) accounts beginning in the summer of 2024.</p>
+        <p>In this context, we developed a semi-systematic, algorithmic trading strategy based on market cycles and seasonality theories. The strategy provides asset allocations across stock market indices and the bond market with human intervention for monthly rebalancing. The system successfully passed the six-month evaluation conducted by the Robo Advisor Test Bed Center and was officially launched in November 2024 with an initial capital of $6.7K. Since launch, the strategy has achieved a 15.58% annualized return.</p>
+      </div>
+      <div class="modal-links">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<!-- <div id="modal3" class="project-modal" onclick="closeModal('modal3')">
+  <div class="modal-content" onclick="event.stopPropagation()">
+    <div class="modal-header">
+      <button class="modal-close" onclick="closeModal('modal3')">&times;</button>
+      <h2 class="modal-title">Educational Analytics Dashboard</h2>
+      <p class="modal-date">2024</p>
+    </div>
+    <div class="modal-body">
+      <img src="/assets/img/projects/project3.jpg" alt="Project 3" class="modal-image">
+      <div class="modal-description">
+        <p>Built a comprehensive data visualization platform for analyzing student learning patterns and educational outcomes. The dashboard provides instructors with actionable insights into student performance, engagement metrics, and learning trajectories.</p>
+        <p>Features include real-time analytics, customizable reports, and predictive models for identifying students who may need additional support. The system integrates with existing learning management systems and processes data from multiple sources.</p>
+      </div>
+      <div class="modal-links">
+        <a href="#" class="modal-link">🔗 Live Demo</a>
+        <a href="#" class="modal-link">💻 Code</a>
+        <a href="#" class="modal-link">📊 Documentation</a>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<script>
+function openModal(modalId) {
+  document.getElementById(modalId).classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal(modalId) {
+  document.getElementById(modalId).classList.remove('active');
+  document.body.style.overflow = 'auto';
+}
+
+// Close modal with Escape key
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Escape') {
+    const activeModal = document.querySelector('.project-modal.active');
+    if (activeModal) {
+      activeModal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  }
+});
+</script>

@@ -50,7 +50,7 @@ In 2023, I graduated from the [Courant Institute of Mathematical Sciences](http
 <br>
 
 ## Research
-My research aims to build human-centered AI systems that provide reliable and personalized support for decision-making under uncertainty. To this end, I focus on three complementary directions:
+My research aims to build human-centered AI systems that provide reliable and personalized support for decision-making under uncertainty. To this end, I focus on three complementary research directions:
 * `Interpretability`: Evaluating model behaviors and dissecting internal model architectures to advance our understanding of how models represent information and carry out reasoning.
 
 * `Alignment`: Identifying embedded biases and failure modes and developing methods to mitigate harmful or unintended behaviors.
@@ -59,7 +59,7 @@ My research aims to build human-centered AI systems that provide reliable and pe
 
 <br>
 
-### Selected Publications
+## Selected Publications
 <!-- See full list at [Google Scholar](https://scholar.google.com/citations?user=NjhpUykAAAAJ). -->
 <table>
   <tr>
@@ -127,7 +127,7 @@ Daniel McDuff, Hyeonhoon Lee, Cynthia Breazeal, Hae Won Park<br>
 
 <br>
 
-### Selected Projects
+## Selected Projects
 
 <br>
 
