@@ -43,7 +43,9 @@ In 2023, I graduated from the [Courant Institute of Mathematical Sciences](http
 
   <tr>
     <td style="white-space: nowrap; vertical-align: top; padding-right: 1.5rem;"><strong>Nov 2024</strong></td>
-    <td>I started my appointment as a software engineer at the <a href="https://www.media.mit.edu/groups/personal-robots/overview/">Personal Robots Group</a> of <a href="https://www.media.mit.edu/">MIT Media Lab</a>! 🤖</td>
+    <td>I started my appointment as a software engineer at the <a href="https://www.media.mit.edu/groups/personal-robots/overview/">Personal Robots Group</a> of <a href="https://www.media.mit.edu/">MIT Media Lab</a>! <img src="/assets/img/media_lab.jpg"
+       alt="MIT Media Lab Logo"
+       style="height: 1.2em; vertical-align: -0.2em;" /></td>
   </tr>
 </table>
 
