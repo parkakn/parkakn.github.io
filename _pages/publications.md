@@ -32,7 +32,7 @@ For a complete and updated list, please see [Google Scholar](https://scholar.goo
     <td valign="top" width="20%"><strong>ICLR 2026 <br>(Under Review)</strong></td>
     <td><strong>Tiered Agentic Oversight: A Hierarchical Multi-Agent System for AI Safety in Healthcare</strong><br>
         Yubin Kim, Hyewon Jeong, Chanwoo Park, <b>Eugene Park</b>, Haipeng Zhang, Xin Liu, Hyeonhoon Lee, Daniel McDuff, Marzyeh Ghassemi, Cynthia Breazeal, Samir Tulebaev, Hae Won Park<br>
-        <a href="https://openreview.net/forum?id=Fbe7OnbkAn">Open Review</a>, <a href="https://arxiv.org/abs/2510.01569">ArXiv</a>
+        <a href="https://openreview.net/forum?id=Fbe7OnbkAn">Open Review</a>, <a href="https://arxiv.org/abs/2506.12482">ArXiv</a>
     </td>
   </tr>
 
