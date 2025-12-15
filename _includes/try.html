@@ -148,8 +148,13 @@
 
 .modal-image {
   width: 100%;
+  max-width: 700px;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
   border-radius: 8px;
   margin-bottom: 24px;
+  display: block
 }
 
 .modal-description {
@@ -230,16 +235,16 @@
   <div class="projects-grid">
     
     <!-- Project Card 1 -->
-    <!-- <div class="project-card" onclick="openModal('modal1')">
+    <div class="project-card" onclick="openModal('modal1')">
       <div class="project-image">
-        <img src="/assets/img/projects/project1.jpg" alt="Project 1">
+        <img src="/assets/img/projects/pytutor.jpg" alt="Project 1">
       </div>
       <div class="project-card-body">
         <h3 class="project-title">PyTutor AI Tutoring Platform</h3>
-        <p class="project-date">2024 - Present</p>
-        <p class="project-short-desc">AI-powered tutoring system deployed across multiple universities</p>
+        <p class="project-date">Present</p>
+        <p class="project-short-desc">LLM-powered tutoring system deployed across multiple universities</p>
       </div>
-    </div> -->
+    </div>
 
     <!-- Project Card 2 -->
     <div class="project-card" onclick="openModal('modal2')">
@@ -269,7 +274,7 @@
 </div>
 
 <!-- Modal 1 -->
-<!-- <div id="modal1" class="project-modal" onclick="closeModal('modal1')">
+<div id="modal1" class="project-modal" onclick="closeModal('modal1')">
   <div class="modal-content" onclick="event.stopPropagation()">
     <div class="modal-header">
       <button class="modal-close" onclick="closeModal('modal1')">&times;</button>
@@ -277,20 +282,19 @@
       <p class="modal-date">2024 - Present</p>
     </div>
     <div class="modal-body">
-      <img src="/assets/img/projects/project1.jpg" alt="Project 1" class="modal-image">
+      <img src="/assets/img/projects/pytutor.jpg" alt="Project 1" class="modal-image">
       <div class="modal-description">
-        <p>Developed core components of PyTutor, an AI tutoring platform deployed across multiple universities as part of the MIT RAISE initiative. The platform leverages large language models to provide personalized educational support to students.</p>
-        <p>Key contributions include advanced retrieval systems for the RAG pipeline, personalized feedback features based on student classroom performance, and interpretability tools for understanding AI tutor behavior.</p>
-        <p>The system has been successfully deployed at multiple institutions and is actively being used by hundreds of students to enhance their learning experience in computer science courses.</p>
+        <p>PyTutor is an AI tutoring platform for students learning introductory Python programming. It is currently deployed in courses across MIT, Georgia State University, and Quinsigammond Community College and is being actively used by hundreds of students. The platform leverages a fully-featured coding environment and a large language model to provide personalized educational support to students.</p>
+        <p>Key contributions include advanced retrieval systems for the RAG pipeline, personalized feedback features based on student classroom performance, and the development of an evaluation framework for understanding AI tutor behavior.</p>
       </div>
       <div class="modal-links">
         <a href="https://raise.mit.edu/research/research-projects/pytutor/" class="modal-link" target="_blank" rel="noopener">🔗 Project Page</a>
-        <a href="#" class="modal-link">📄 Paper</a>
-        <a href="#" class="modal-link">💻 Demo</a>
+        <!-- <a href="#" class="modal-link">📄 Paper</a>
+        <a href="#" class="modal-link">💻 Demo</a> -->
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
 <!-- Modal 2 -->
 <div id="modal2" class="project-modal" onclick="closeModal('modal2')">
