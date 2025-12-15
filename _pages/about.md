@@ -18,12 +18,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a software engineer at the [Personal Robots Group](https://www.media.mit.edu/groups/personal-robots/overview/) of [MIT Media Lab](https://www.media.mit.edu/). My long term research endeavor is to build artificial intelligence (AI) systesm that support humans decision making under uncertainty, especially in *education* and *finance*. Currently, my research revolves around `interpretability` and `alignment` of language models (LMs) as modern AI tutors. I study how they behave pedagogically, how their behavior influences student learning, and how different alignment techniques shape those outcomes. I also develop core components of [PyTutor](https://raise.mit.edu/research/research-projects/pytutor/), an AI tutoring platform deployed across multiple universities as part of the [MIT RAISE](https://raise.mit.edu/) initiative. 
-<!-- , such as advanced  retrieval for PyTutor’s retrieval-augemented generation (RAG) pipeline and personalized feedback feature based on student’s classroom performance. -->
+Hi! I am a software engineer at the [Personal Robots Group](https://www.media.mit.edu/groups/personal-robots/overview/) of [MIT Media Lab](https://www.media.mit.edu/), where I focus on language model applications for educational tools (e.g. AI tutors). I design and develop system features that support personalized learning pathways for students and evaluate pedagogical effectiveness of language models. 
 
-Before MIT, I completed my Master of Science in Mathematics at the [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/dynamic/) at New York University with a master's thesis on applying machine learning methods to stock return forecasting ([preprint](https://arxiv.org/abs/2307.00459)). I was fortunate to be advised by Professor [Kenneth Winston](https://math-finance.cims.nyu.edu/team/kenneth-winston/) and to receive additional mentorship from Professor [Jonathan Goodman](https://cims.nyu.edu/people/profiles/GOODMAN_Jonathan.html).
+My broader research objective is to advance our understanding of AI models and mitigate unintended or harmful behaviors, ultimately to provide reliable and personalized support for human decision-making under uncertainty. I am especially interested in high-stakes domains, such as education and financial decision-making, where model failures have real-world consequences. 
 
-I completed my undergraduate studies at [Boston College](https://www.bc.edu/), where I studied a wide range of topics across mathematics, economics, and finance. I was fortunate to receive guidance from Professor [Robert Murphy](https://www.bc.edu/bc-web/offices/office-of-university-communications/for-the-media/boston-college-faculty-experts/robert-murphy.html) on my senior honors thesis, which examined how instability in the stock market propagates into the real economy.
+In 2023, I graduated from the [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/dynamic/) at New York University with a Master of Science in Mathematics. Here, I completed a master's thesis on applying machine learning to uncover patterns and forecast stock returns ([preprint](https://arxiv.org/abs/2307.00459)) under the mentorship of Professor [Kenneth Winston](https://math-finance.cims.nyu.edu/team/kenneth-winston/) and Professor [Jonathan Goodman](https://cims.nyu.edu/people/profiles/GOODMAN_Jonathan.html). In 2021, I completed my undergraduate studies at [Boston College](https://www.bc.edu/) with a B.A. in Mathematics and B.A. in Economics (honors). I was advised by Professor [Robert Murphy](https://www.bc.edu/bc-web/offices/office-of-university-communications/for-the-media/boston-college-faculty-experts/robert-murphy.html) for my senior honors thesis on examining how instability in the financial market propagates into the real economy.
 
 <br>
 
@@ -50,7 +49,15 @@ I completed my undergraduate studies at [Boston College](https://www.bc.edu/), w
 
 <br>
 
-## Selected Publications
+## Research
+My research aims to build human-centered AI systems that provide relaible and personalized support for decision-making under uncertainty. This involves the following interrelated efforts:
+* `Interpretability`: evaluating empirical behaviors and dissecting the internal model architecure to advance our understanding of models' internal reasoning processes.
+* `Alignment`: detecting embedded biases and failure modes and mitigating harmful or unintended behaviors.
+* `Human-centered AI systems`: developing features that enhance alignment with individual human preferences and provide transparent support. 
+
+<br>
+
+### Selected Publications
 <!-- See full list at [Google Scholar](https://scholar.google.com/citations?user=NjhpUykAAAAJ). -->
 <table>
   <tr>
@@ -118,7 +125,7 @@ Daniel McDuff, Hyeonhoon Lee, Cynthia Breazeal, Hae Won Park<br>
 
 <br>
 
-## Selected Projects
+### Selected Projects
 
 <br>
 
