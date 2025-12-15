@@ -233,6 +233,17 @@
 
 <div class="projects-showcase">
   <div class="projects-grid">
+        <!-- Project Card 3 -->
+    <div class="project-card" onclick="openModal('modal3')">
+      <div class="project-image">
+        <img src="/assets/img/projects/calctutor.png" alt="Project 3">
+      </div>
+      <div class="project-card-body">
+        <h3 class="project-title">Visual Tutoring with Language Models for Calculus Education</h3>
+        <p class="project-date">2025 - Present</p>
+        <p class="project-short-desc">A collaborative effort across MIT CSAIL, MIT Media Lab, and MIT Open Learning to advance visual tutoring capabilities with language models.</p>
+      </div>
+    </div>
     
     <!-- Project Card 1 -->
     <div class="project-card" onclick="openModal('modal1')">
@@ -241,8 +252,8 @@
       </div>
       <div class="project-card-body">
         <h3 class="project-title">PyTutor: Empowering Equitable Education Pathways in Computing with Generative AI</h3>
-        <p class="project-date">Present</p>
-        <p class="project-short-desc">LLM-powered tutoring system deployed across multiple universities</p>
+        <p class="project-date">2024 - Present</p>
+        <p class="project-short-desc">LLM-powered tutoring system for introductory Python programming deployed across MIT, Georgia State University, and Quinsigammond Community College.</p>
       </div>
     </div>
 
@@ -258,22 +269,33 @@
       </div>
     </div>
 
-    <!-- Project Card 3 -->
-    <!-- <div class="project-card" onclick="openModal('modal3')">
-      <div class="project-image">
-        <img src="/assets/img/projects/project3.jpg" alt="Project 3">
-      </div>
-      <div class="project-card-body">
-        <h3 class="project-title">Educational Analytics Dashboard</h3>
-        <p class="project-date">2024</p>
-        <p class="project-short-desc">Data visualization platform for student learning insights</p>
-      </div>
-    </div> -->
-
   </div>
 </div>
 
 <!-- Modal 1 -->
+ <!-- Modal 3 -->
+<!-- <div id="modal3" class="project-modal" onclick="closeModal('modal3')">
+  <div class="modal-content" onclick="event.stopPropagation()">
+    <div class="modal-header">
+      <button class="modal-close" onclick="closeModal('modal3')">&times;</button>
+      <h2 class="modal-title">Educational Analytics Dashboard</h2>
+      <p class="modal-date">2024</p>
+    </div>
+    <div class="modal-body">
+      <img src="/assets/img/projects/project3.jpg" alt="Project 3" class="modal-image">
+      <div class="modal-description">
+        <p>Built a comprehensive data visualization platform for analyzing student learning patterns and educational outcomes. The dashboard provides instructors with actionable insights into student performance, engagement metrics, and learning trajectories.</p>
+        <p>Features include real-time analytics, customizable reports, and predictive models for identifying students who may need additional support. The system integrates with existing learning management systems and processes data from multiple sources.</p>
+      </div>
+      <div class="modal-links">
+        <a href="#" class="modal-link">🔗 Live Demo</a>
+        <a href="#" class="modal-link">💻 Code</a>
+        <a href="#" class="modal-link">📊 Documentation</a>
+      </div>
+    </div>
+  </div>
+</div> -->
+
 <div id="modal1" class="project-modal" onclick="closeModal('modal1')">
   <div class="modal-content" onclick="event.stopPropagation()">
     <div class="modal-header">
@@ -315,29 +337,6 @@
     </div>
   </div>
 </div>
-
-<!-- Modal 3 -->
-<!-- <div id="modal3" class="project-modal" onclick="closeModal('modal3')">
-  <div class="modal-content" onclick="event.stopPropagation()">
-    <div class="modal-header">
-      <button class="modal-close" onclick="closeModal('modal3')">&times;</button>
-      <h2 class="modal-title">Educational Analytics Dashboard</h2>
-      <p class="modal-date">2024</p>
-    </div>
-    <div class="modal-body">
-      <img src="/assets/img/projects/project3.jpg" alt="Project 3" class="modal-image">
-      <div class="modal-description">
-        <p>Built a comprehensive data visualization platform for analyzing student learning patterns and educational outcomes. The dashboard provides instructors with actionable insights into student performance, engagement metrics, and learning trajectories.</p>
-        <p>Features include real-time analytics, customizable reports, and predictive models for identifying students who may need additional support. The system integrates with existing learning management systems and processes data from multiple sources.</p>
-      </div>
-      <div class="modal-links">
-        <a href="#" class="modal-link">🔗 Live Demo</a>
-        <a href="#" class="modal-link">💻 Code</a>
-        <a href="#" class="modal-link">📊 Documentation</a>
-      </div>
-    </div>
-  </div>
-</div> -->
 
 <script>
 function openModal(modalId) {
