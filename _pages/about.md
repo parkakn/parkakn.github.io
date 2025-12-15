@@ -52,8 +52,11 @@ In 2023, I graduated from the [Courant Institute of Mathematical Sciences](http
 ## Research
 My research aims to build human-centered AI systems that provide reliable and personalized support for decision-making under uncertainty. To this end, I focus on three complementary directions:
 * `Interpretability`: Evaluating model behaviors and dissecting internal model architectures to advance our understanding of how models represent information and carry out reasoning.
+
 * `Alignment`: Identifying embedded biases and failure modes and developing methods to mitigate harmful or unintended behaviors.
+
 * `Personalization`: Developing models that surface meaningful, domain-specific insights to users while aligning model behavior with individual human preferences.
+
 <br>
 
 ### Selected Publications
