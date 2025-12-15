@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Hi! I am a software engineer at the [Personal Robots Group](https://www.media.mit.edu/groups/personal-robots/overview/) of [MIT Media Lab](https://www.media.mit.edu/), where I focus on language model applications for educational tools (e.g. AI tutors). I design and develop system features that support personalized learning pathways for students and evaluate pedagogical effectiveness of language models. 
+I am a software engineer at the [Personal Robots Group](https://www.media.mit.edu/groups/personal-robots/overview/) of [MIT Media Lab](https://www.media.mit.edu/), where I focus on language model applications for educational tools (e.g. AI tutors). I design and develop system features that support personalized learning pathways for students and evaluate pedagogical effectiveness of language models. 
 
 My broader research objective is to advance our understanding of AI models and mitigate unintended or harmful behaviors, ultimately to provide reliable and personalized support for human decision-making under uncertainty. I am especially interested in high-stakes domains, such as education and financial decision-making, where model failures have real-world consequences. 
 
