@@ -114,7 +114,7 @@ Daniel McDuff, Hyeonhoon Lee, Cynthia Breazeal, Hae Won Park<br>
   <tr><td><br></td><td><br></td></tr> -->
   
   <tr>
-    <td valign="top" width="20%"><strong>Master's Thesis</strong></td>
+    <td valign="top" width="20%"><strong>Master's Thesis<br>2023</strong></td>
     <td><strong>Principal Component Analysis and Hidden Markov Model for Forecasting Stock Returns</strong><br>
         <b>Eugene Park</b><br>
         <a href="https://arxiv.org/abs/2307.00459">ArXiv</a>
