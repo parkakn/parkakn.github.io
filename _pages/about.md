@@ -128,6 +128,7 @@ Daniel McDuff, Hyeonhoon Lee, Cynthia Breazeal, Hae Won Park<br>
 <br>
 
 ## Selected Projects
+{% include try.html %}
 
 <br>
 
